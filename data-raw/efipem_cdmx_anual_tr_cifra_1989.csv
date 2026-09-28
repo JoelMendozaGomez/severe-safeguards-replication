@@ -1,0 +1,90 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1989,09,09,Egresos,Tema,Total de egresos,5108654000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Servicios personales,1484353000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Remuneraciones al personal,1484353000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,66131000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Educación,14597000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Salud,91219000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,94695000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,34000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,15889000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,611560000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,130981000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Registros Públicos,3023000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Dependencias diversas,456224000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Materiales y suministros,342991000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Materiales y suministros diversos,342991000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Servicios generales,839106000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Otros servicios generales,839106000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Otros servicios generales,839106000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",326160000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,326160000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,629000,Cifras Definitivas
+1989,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,629000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Diversas transferencias,325531000,Cifras Definitivas
+1989,09,09,Egresos,Subpartida Genérica,Otras transferencias,325531000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Inversión pública,1068831000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,1068831000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,1068831000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,552822000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,552822000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Diversas Alcaldías,552822000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Deuda pública,68064000,Cifras Definitivas
+1989,09,09,Egresos,Concepto,Amortización de la deuda pública,68064000,Cifras Definitivas
+1989,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,68064000,Cifras Definitivas
+1989,09,09,Egresos,Capítulo,Disponibilidad final,426327000,Cifras Definitivas
+1989,09,09,Ingresos,Tema,Total de ingresos,5108654000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Impuestos,725574000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,365404000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,365404000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,322785000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Impuesto predial,130619000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Traslado de dominio de bienes inmuebles,192166000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",35433000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,34123000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,"Otros impuestos sobre la producción, el consumo y las transacciones",1310000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Adicionales,1952000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Impuestos adicionales diversos,1952000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,19157000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,19157000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Derechos,292711000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",188037000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Registros,58622000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Registro civil,5433000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,53189000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Licencias y permisos,457000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,457000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Inspecciones,3130000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Sanidad,3130000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,125828000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,125828000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Otros Derechos,104674000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Productos,1167947000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Productos de tipo corriente,753382000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Intereses,718471000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,34911000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,34911000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Productos de tipo capital,6870000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,6870000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,1176000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,5694000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Otros productos,407695000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Aprovechamientos,80529000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,61336000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Rezagos,34333000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Multas,26950000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Donaciones y aprovechamientos a favor del estado,12000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Gastos de ejecución,41000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Otros aprovechamientos,19193000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Participaciones federales,2808792000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Fondos participables,2673878000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,2673878000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Otras participaciones,134914000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Participaciones diversas,134914000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Aportaciones federales,223000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,223000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,223000,Cifras Definitivas
+1989,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,223000,Cifras Definitivas
+1989,09,09,Ingresos,Capítulo,Financiamiento,13721000,Cifras Definitivas
+1989,09,09,Ingresos,Concepto,Empréstitos,13721000,Cifras Definitivas
+1989,09,09,Ingresos,Partida Genérica,Empréstitos diversos,13721000,Cifras Definitivas

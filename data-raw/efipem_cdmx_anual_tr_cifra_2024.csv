@@ -1,0 +1,388 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+2024,09,09,Egresos,Tema,Total de egresos,295294433486,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Servicios personales,36410560395,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Remuneraciones al personal,13311088196,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Jefatura de Gobierno,69289474,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Gobierno,186429391,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,960875045,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Educación,279654322,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Salud,2640307738,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,568172413,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,60841612,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Turismo,17327769,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría del Medio Ambiente,522950187,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Social,642787772,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,92523594,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,6106416289,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Contraloría General,81730118,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Dependencias diversas,1081782472,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Remuneraciones adicionales y especiales,9911252291,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Primas por años de servicios efectivos prestados,315473531,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Primas de vacaciones, dominical y gratificación de fin de año",2501218088,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Horas extraordinarias,210283055,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Compensaciones,6884277617,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Seguridad social,3599366226,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Aportaciones a fondos de vivienda,852083868,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Aportaciones para seguros,658850673,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otras cuotas de seguridad social y seguros,2088431685,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Otras prestaciones sociales y económicas,9136288963,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Cuotas para el fondo de ahorro y fondo de trabajo,932444919,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Indemnizaciones,318733802,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Prestaciones y haberes de retiro,580050554,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Apoyos a la capacitación de los servidores públicos,84147049,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otras prestaciones sociales y económicas,7220912639,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Pago de estímulos a servidores públicos,452564719,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Estímulos,452564719,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Materiales y suministros,5187078028,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Materiales de administración, emisión de documentos y artículos oficiales",239944307,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de oficina",75551437,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Materiales y útiles de impresión y reproducción,3991565,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de tecnologías de la información y comunicaciones",38600031,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Material impreso e información digital,21382779,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Material de limpieza,99892205,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Materiales y útiles de enseñanza,526290,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Alimentos y utensilios,1698242534,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Productos alimenticios para personas,1597591075,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Productos alimenticios para animales,93614185,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Utensilios para el servicio de alimentación,7037274,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Herramientas, refacciones y accesorios menores",89998644,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Herramientas menores,11751857,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de edificios,1922446,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Refacciones y accesorios menores de mobiliario y equipo de administración, educacional y recreativo",141261,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo de cómputo y tecnologías de la información,22927849,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo e instrumental médico y de laboratorio,3898411,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo de transporte,37891603,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de maquinaria y otros equipos,9893569,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores otros bienes muebles,1571648,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Materiales y artículos de construcción y de reparación,376267647,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Productos minerales no metálicos,201404016,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Cemento y productos de concreto,3369174,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Cal, yeso y productos de yeso",3671492,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Madera y productos de madera,5550676,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Vidrio y productos de vidrio,372035,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Material eléctrico y electrónico,43536338,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Artículos metálicos para la construcción,42089253,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Materiales complementarios,28576959,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros materiales y artículos de construcción y reparación,47697704,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Productos químicos, farmacéuticos, laboratorio y materias primas de producción y comercialización",1322779721,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Productos químicos, farmacéuticos y de laboratorio",1320792004,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Productos químicos básicos,5863918,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Fertilizantes, pesticidas y otros agroquímicos",94525,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Medicinas y productos farmacéuticos,530884534,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros médicos",752240195,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros de laboratorio",24821155,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Fibras sintéticas, hules, plásticos y derivados",1971802,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Otros productos químicos,4915875,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Materias primas y materiales de producción y comercialización,1015924,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Productos alimenticios, agropecuarios y forestales adquiridos como materia prima",542072,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Productos de papel, cartón e impresos adquiridos como materia prima",473852,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros productos adquiridos como materia prima,971793,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Combustibles, lubricantes y aditivos",1048017741,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Combustibles, lubricantes y aditivos",1048017741,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Vestuario, blancos, prendas de protección y artículos deportivos",388142591,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Vestuario y uniformes,355978530,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Prendas de seguridad y protección personal,27545071,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Artículos deportivos,410263,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Productos textiles,1213140,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Blancos y otros productos textiles, excepto prendas de vestir",2995587,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Materiales y suministros para seguridad,23684843,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Prendas de protección para seguridad pública y nacional,23684843,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Servicios generales,17861373848,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Servicios básicos,977372879,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Energía eléctrica,381092675,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Gas,61868927,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Agua,371838404,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Telefonía tradicional,8770833,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de telecomunicaciones y satélites,31188405,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de acceso de Internet, redes y procesamiento de información",42672507,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios postales y telegráficos,53225774,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios integrales y otros servicios,26715354,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Servicios de arrendamiento,2132211376,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Arrendamiento de edificios,796450350,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Arrendamiento de mobiliario y equipo de administración, educacional y recreativo",12451818,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Arrendamiento de equipo e instrumental médico y de laboratorio,7541031,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Arrendamiento de equipo de transporte,1016270785,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Arrendamiento de maquinaria, otros equipos y herramientas",24514927,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Arrendamiento de activos intangibles,16091480,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros arrendamientos,258890985,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Servicios profesionales, científicos, técnicos y otros servicios",2568030274,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios legales, de contabilidad, auditoría y relacionados",25187781,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de diseño, arquitectura, ingeniería y actividades relacionadas",30966259,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de consultoría administrativa, procesos, técnica y en tecnologías de la información",62805278,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de capacitación,5705179,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de investigación científica y desarrollo,80000,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de apoyo administrativo, traducción, fotocopiado e impresión",228600039,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de vigilancia,2081627120,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios profesionales, científicos y técnicos integrales",133058618,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Servicios financieros, bancarios y comerciales",1116263364,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios financieros y bancarios,50492693,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de recaudación, traslado y custodia de valores",726530421,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Seguro de bienes patrimoniales,338202828,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Almacenaje, envase y embalaje",84967,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fletes y maniobras,834240,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Comisiones por ventas,118215,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Servicios de instalación, reparación, mantenimiento y conservación",2528347213,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Conservación y mantenimiento menor de inmuebles,325677793,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo",9632517,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información",55766742,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de jardinería y fumigación,90714710,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Reparación y mantenimiento de equipo de transporte,225696003,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Reparación y mantenimiento de equipo de defensa y seguridad e instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio",185657181,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,"Instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio",185657181,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de maquinaria, otros equipos y herramienta",442920099,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de limpieza y manejo de desechos,1192282168,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Servicios de comunicación social y publicidad,351107290,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Difusión por radio, televisión y otros medios de mensajes sobre programas y actividades gubernamentales",283843476,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Difusión por radio, televisión y otros medios de mensajes comerciales para promover la venta de bienes o servicios",65067,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Servicios de creatividad, preproducción y producción de publicidad, excepto Internet",37560730,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicio de creación y difusión de contenido exclusivamente a través de Internet,25933505,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros servicios de información,3704512,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Servicios de traslado y viáticos,41823817,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Pasajes aéreos,972671,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Pasajes terrestres,35240734,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Viáticos en el país,5377497,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Viáticos en el extranjero,134655,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios integrales de traslado y viáticos,98260,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Servicios oficiales,465343849,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Gastos de orden social y cultural,405388209,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Congresos y convenciones,49020420,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Exposiciones,10935220,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Otros servicios generales,7680873786,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios funerarios y de cementerios,11732520,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Impuestos y derechos,94296979,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Sentencias y resoluciones por autoridad competente,389772829,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Penas, multas, accesorios y actualizaciones",8853,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros gastos por responsabilidades,44702512,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Impuesto sobre nóminas y otros que se deriven de una relación laboral,1226788872,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros servicios generales,5913571221,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",71681688847,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,68442542162,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,A poderes,10654605787,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Legislativo,2492629340,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Judicial,8161976447,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,52928734873,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de educación,3734356482,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de salud,157185279,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,1921701591,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de cultura y deporte,147235900,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de seguridad pública,29707344198,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,54814150,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector económico,554370560,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas ecológicos,11778830,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones y programas de infraestructura,16639947883,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Órganos autónomos y electorales,4125791191,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituto electoral,2100000000,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Comisión de derechos humanos,497383942,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Instituciones de transparencia,152476050,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Diversos órganos autónomos y electorales,1375931199,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Diversas transferencias,733410311,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Otras transferencias,733410311,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Ayudas sociales,4893955,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Becas y otras ayudas para programas de capacitación,4893955,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Subsidios y subvenciones,3234252730,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Subsidios diversos,3234252730,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,"Bienes muebles, inmuebles e intangibles",788014085,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Mobiliario y equipo de administración,110300748,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Muebles de oficina y estantería,10489126,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Muebles, excepto de oficina y estantería",2686849,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Equipo de cómputo y de tecnologías de la información,6009827,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros mobiliarios y equipos de administración,91114946,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Mobiliario y equipo educacional y recreativo,3243376,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Equipos y aparatos audiovisuales,2419993,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Cámaras fotográficas y de video,71901,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otro mobiliario y equipo educacional y recreativo,751482,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Vehículos y equipo de transporte,125246512,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Vehículos y equipo terrestre,124786164,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Carrocerías y remolques,148248,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros equipos de transporte,312100,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Equipo de defensa y seguridad y equipo e instrumental médico y laboratorio,244086086,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Equipo de defensa y seguridad,80040,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Equipo médico y de laboratorio,243992617,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instrumental médico y de laboratorio,13429,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Maquinaria, otros equipos y herramientas",26146181,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Maquinaria y equipo industrial,13042461,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Maquinaria y equipo de construcción,502744,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial",1906527,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Equipo de comunicación y telecomunicación,698265,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,"Equipos de generación eléctrica, aparatos y accesorios eléctricos",9179660,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Herramientas y máquinas-herramienta,85384,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otros equipos,731140,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Bienes inmuebles,271829335,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Terrenos,271829335,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Activos intangibles,7161847,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Software,1763583,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Licencias informáticas e intelectuales,5398264,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Inversión pública,18331160359,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,16704150782,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Edificación no habitacional,1143629382,Cifras Preliminares
+2024,09,09,Egresos,Subpartida Genérica,Edificios públicos diversos,1143629382,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,División de terrenos y construcción de obras de urbanización,1006055156,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Construcción de vías de comunicación,1457020911,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otras construcciones de ingeniería civil u obra pesada,13097275623,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Trabajos de acabados en edificaciones y otros trabajos especializados,169710,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Proyectos productivos y acciones de fomento,1627009577,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Diversos proyectos productivos y acciones de fomento,1627009577,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Inversiones financieras y otras provisiones,9713750387,Cifras Preliminares
+2024,09,09,Egresos,Concepto,"Inversiones en fideicomisos, mandatos y otros análogos",3546392334,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otras inversiones en fideicomisos,3546392334,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Provisiones para contingencias y otras erogaciones especiales,6167358053,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Otras erogaciones especiales,6167358053,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,115876888937,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,49617025018,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Azcapotzalco,2282975677,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Coyoacán,3317993500,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Cuajimalpa de Morelos,2076374933,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Gustavo A. Madero,5367341388,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Iztacalco,2431050281,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Iztapalapa,6584409407,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Magdalena Contreras,1919712828,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Milpa Alta,1780412088,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Álvaro Obregón,3675209554,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Tláhuac,2126697597,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Tlalpan,3150218431,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Xochimilco,2395788335,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Benito Juárez,2619209629,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Cuauhtémoc,3837307258,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Miguel Hidalgo,2797251711,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Venustiano Carranza,3255072401,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Sector Paraestatal del Gobierno de la Ciudad de México,66259863919,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Heroico Cuerpo de Bomberos de la Ciudad de México,1181210215,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instituto de Vivienda de la Ciudad de México,4019163140,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fondo para el Desarrollo Social de la Ciudad de México,453350893,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fondo Mixto de Promoción Turística de la Ciudad de México,111026305,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fondo Ambiental Público de la Ciudad de México,1477542664,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Sistema para el Desarrollo Integral de la Familia,2516951133,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instituto de Educación Media Superior de la Ciudad de México,1173290145,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instituto de la Juventud de la Ciudad de México,147676959,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fideicomiso del Centro Histórico de la Ciudad de México,59624729,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Sistema de Transporte Colectivo (Metro),15256591107,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicio de Transportes Eléctricos de la Ciudad de México,1670713814,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Sistema de Movilidad 1,2267586530,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fideicomiso para el Fondo de Promoción del Transporte Público,354139611,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Caja de Previsión de la Policía Auxiliar de la Ciudad de México,314560843,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Caja de Previsión para Trabajadores a Lista de Raya de la Ciudad de México,5593085410,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Caja de Previsión de la Policía Preventiva de la Ciudad de México,7408315793,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios Metropolitanos S.A de C.V,65603501,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Servicios de Salud Pública de la Ciudad de México,5739142851,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Procuraduría Social de la Ciudad de México,437145620,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México,120326302,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Metrobús,2765060450,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fideicomiso Museo de Arte Popular Mexicano,15301486,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fideicomiso Museo del Estanquillo,10554723,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Fideicomiso Educación Garantizada,8741866794,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instituto del Deporte de la Ciudad de México,84242724,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Instituto Local de la Infraestructura Física Educativa de la Ciudad de México,497050915,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Diversas Entidades Paraestatales de la Ciudad de México,3778739262,Cifras Preliminares
+2024,09,09,Egresos,Capítulo,Deuda pública,19443918600,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Amortización de la deuda pública,9012483884,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Amortización de la deuda interna con instituciones de crédito,6512483884,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Amortización de la deuda interna por emisión de títulos y valores,2500000000,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Intereses de la deuda pública,10062238961,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Intereses de la deuda interna con instituciones de crédito,9124415711,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,Intereses derivados de la colocación de títulos y valores,937823250,Cifras Preliminares
+2024,09,09,Egresos,Concepto,Adeudos de ejercicios fiscales anteriores (ADEFAS),369195755,Cifras Preliminares
+2024,09,09,Egresos,Partida Genérica,ADEFAS,369195755,Cifras Preliminares
+2024,09,09,Ingresos,Tema,Total de ingresos,295294433486,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Impuestos,81749184826,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,39676792856,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,39676792856,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,37982908323,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto predial,23845484763,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,4363551947,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Adquisición de bienes inmuebles,9773871613,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",3040286851,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto sobre hospedaje,884096670,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,1225978242,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,"Loterías, rifas, sorteos y juegos permitidos",705266017,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,"Otros impuestos sobre la producción, el consumo y las transacciones",224945922,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Accesorios,1049196796,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Derechos,27806251615,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",14722969280,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Registros,2094147779,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Registro civil,401030870,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,1225173333,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Servicios notariales y de archivo,467943576,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Licencias y permisos,373760289,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,373760289,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,3104181457,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Servicios de grúa y almacenaje de vehículos,49067729,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Control vehicular,3055113728,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Uso y suministro de agua potable,8407938619,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Servicios de desarrollo urbano y obras públicas,742941136,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Urbanización,465640524,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Por servicios de fraccionamiento,277300612,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Derechos por prestación de servicios,12441478363,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Estacionamientos,113946194,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Seguridad pública,12037694541,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Servicios de limpia y recolección de basura,19947584,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Diversos derechos por prestación de servicios,269890044,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Accesorios,332154708,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Otros Derechos,309649264,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Productos,5769487154,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Productos de tipo corriente,5106362095,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Intereses,4129430414,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,976931681,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Talleres gráficos,369362405,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,607569276,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Productos de tipo capital,663123572,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,663123572,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,656247514,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,6876058,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Otros productos,1487,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Aprovechamientos,9479008148,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,2047606325,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Multas,1938577055,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Fianzas y depósitos,10800000,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Donaciones y aprovechamientos a favor del estado,22879776,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Indemnizaciones a favor del estado,75349494,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Aprovechamientos de tipo capital,615293072,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Concesiones para la explotación de bienes patrimoniales,615293072,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Otros aprovechamientos,6816108751,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Participaciones federales,122775078872,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Fondos participables,112601791630,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,91188131616,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Fondo de Fomento Municipal,4789155875,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Fondo de Fiscalización,4779997095,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Fondo del Impuesto Sobre la Renta,11844507044,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Impuestos participables,7000165191,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto sobre Automóviles Nuevos,3580137384,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Impuesto Especial sobre Producción y Servicios,1962123248,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,IEPS Gasolinas,1457904559,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Otras participaciones,3173122051,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Multas administrativas federales no fiscales,27469921,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Incentivos por administración de impuestos,3145652130,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Aportaciones federales,35502193121,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,19325700614,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Aportaciones a entidades federativas,7836693465,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para los Servicios de Salud,2919318491,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para Infraestructura Social Estatal,262730000,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA Múltiples,1284669543,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para la Seguridad Pública,564493336,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios y las Demarcaciones Territoriales de la Ciudad de México,2805482095,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,11489007149,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para la Infraestructura Social Municipal,1904720000,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,9584287149,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Recursos federales reasignados,16176492507,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Convenios para obras públicas,508708556,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Comisión nacional del agua,305683381,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Fondo para la estabilización de los ingresos,180955694,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Convenio para obras públicas diversas,22069481,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,"Convenios para educación, cultura y deportes",924368283,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Cultura,766777067,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Deporte,7591216,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Diversos programas para el sector educativo,150000000,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Convenios para seguridad pública,88723817,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Apoyo a programas de seguridad pública,88723817,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Convenios al apoyo del desarrollo económico,93071639,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Diversos convenios al sector económico,93071639,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,"Convenios para salud, asistencia y seguridad social",3133256020,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Convenios para salud,3090186021,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Convenio para asistencia social,43069999,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Recursos federales diversos,11428364192,Cifras Preliminares
+2024,09,09,Ingresos,Subpartida Genérica,Otros recursos federales,11428364192,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Otros ingresos,198205505,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Otros ingresos extraordinarios,198205505,Cifras Preliminares
+2024,09,09,Ingresos,Capítulo,Financiamiento,12015024245,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Empréstitos,2415528673,Cifras Preliminares
+2024,09,09,Ingresos,Partida Genérica,Empréstitos diversos,2415528673,Cifras Preliminares
+2024,09,09,Ingresos,Concepto,Déficit,9599495572,Cifras Preliminares

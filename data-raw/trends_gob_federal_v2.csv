@@ -1,0 +1,673 @@
+Year,Rhetoric_Intensity,State_Name
+2004,8.333333333333332,Aguascalientes
+2005,0,Aguascalientes
+2006,0,Aguascalientes
+2007,0,Aguascalientes
+2008,0.5,Aguascalientes
+2009,0,Aguascalientes
+2010,0.33333333333333326,Aguascalientes
+2011,0.16666666666666666,Aguascalientes
+2012,0.3333333333333333,Aguascalientes
+2013,0,Aguascalientes
+2014,0.08333333333333333,Aguascalientes
+2015,0.08333333333333334,Aguascalientes
+2016,0,Aguascalientes
+2017,0,Aguascalientes
+2018,0,Aguascalientes
+2019,0,Aguascalientes
+2020,0.33333333333333337,Aguascalientes
+2021,0.08333333333333331,Aguascalientes
+2022,0.08333333333333333,Aguascalientes
+2023,0,Aguascalientes
+2024,0.08333333333333334,Aguascalientes
+2004,0,Baja California
+2005,0,Baja California
+2006,0,Baja California
+2007,0,Baja California
+2008,0,Baja California
+2009,7.416666666666666,Baja California
+2010,8.333333333333332,Baja California
+2011,18.416666666666664,Baja California
+2012,12.416666666666668,Baja California
+2013,4.666666666666666,Baja California
+2014,6.166666666666666,Baja California
+2015,5.166666666666666,Baja California
+2016,0,Baja California
+2017,1.75,Baja California
+2018,0,Baja California
+2019,0,Baja California
+2020,4,Baja California
+2021,0,Baja California
+2022,3.25,Baja California
+2023,0,Baja California
+2024,0,Baja California
+2004,0,Baja California Sur
+2005,0,Baja California Sur
+2006,8.333333333333334,Baja California Sur
+2007,0,Baja California Sur
+2008,0,Baja California Sur
+2009,0,Baja California Sur
+2010,0,Baja California Sur
+2011,0,Baja California Sur
+2012,0,Baja California Sur
+2013,0,Baja California Sur
+2014,0,Baja California Sur
+2015,0,Baja California Sur
+2016,0,Baja California Sur
+2017,0.75,Baja California Sur
+2018,0,Baja California Sur
+2019,0.8333333333333333,Baja California Sur
+2020,0,Baja California Sur
+2021,0,Baja California Sur
+2022,0,Baja California Sur
+2023,0,Baja California Sur
+2024,0,Baja California Sur
+2004,0,Campeche
+2005,0,Campeche
+2006,0,Campeche
+2007,0,Campeche
+2008,0,Campeche
+2009,0,Campeche
+2010,0,Campeche
+2011,0,Campeche
+2012,8.25,Campeche
+2013,8.333333333333334,Campeche
+2014,0,Campeche
+2015,6,Campeche
+2016,0,Campeche
+2017,6.833333333333334,Campeche
+2018,0,Campeche
+2019,0,Campeche
+2020,3.4166666666666665,Campeche
+2021,0,Campeche
+2022,0,Campeche
+2023,0,Campeche
+2024,0,Campeche
+2004,0,Coahuila
+2005,0,Coahuila
+2006,0,Coahuila
+2007,0,Coahuila
+2008,0,Coahuila
+2009,0,Coahuila
+2010,0,Coahuila
+2011,0,Coahuila
+2012,8.333333333333332,Coahuila
+2013,6.666666666666667,Coahuila
+2014,5.833333333333333,Coahuila
+2015,0,Coahuila
+2016,0,Coahuila
+2017,0,Coahuila
+2018,0,Coahuila
+2019,0,Coahuila
+2020,5.833333333333334,Coahuila
+2021,0,Coahuila
+2022,10.833333333333332,Coahuila
+2023,0,Coahuila
+2024,0,Coahuila
+2004,0,Colima
+2005,0,Colima
+2006,0,Colima
+2007,8.333333333333332,Colima
+2008,0,Colima
+2009,0,Colima
+2010,0,Colima
+2011,2.75,Colima
+2012,0,Colima
+2013,0.75,Colima
+2014,0.8333333333333334,Colima
+2015,0.6666666666666666,Colima
+2016,0,Colima
+2017,0,Colima
+2018,0,Colima
+2019,0,Colima
+2020,0,Colima
+2021,0,Colima
+2022,1,Colima
+2023,0,Colima
+2024,0,Colima
+2004,0,Chiapas
+2005,0,Chiapas
+2006,0,Chiapas
+2007,0,Chiapas
+2008,0,Chiapas
+2009,8.333333333333332,Chiapas
+2010,15.666666666666664,Chiapas
+2011,33.666666666666664,Chiapas
+2012,20,Chiapas
+2013,34.833333333333336,Chiapas
+2014,22.333333333333336,Chiapas
+2015,11.666666666666668,Chiapas
+2016,8.5,Chiapas
+2017,2.1666666666666665,Chiapas
+2018,1.8333333333333335,Chiapas
+2019,11.666666666666668,Chiapas
+2020,18.583333333333332,Chiapas
+2021,9.083333333333332,Chiapas
+2022,11.083333333333332,Chiapas
+2023,0,Chiapas
+2024,1.8333333333333335,Chiapas
+2004,0,Chihuahua
+2005,0,Chihuahua
+2006,0,Chihuahua
+2007,8.333333333333334,Chihuahua
+2008,0,Chihuahua
+2009,6.416666666666667,Chihuahua
+2010,4.75,Chihuahua
+2011,14.25,Chihuahua
+2012,10.916666666666668,Chihuahua
+2013,3.5,Chihuahua
+2014,4.583333333333334,Chihuahua
+2015,6,Chihuahua
+2016,1.1666666666666667,Chihuahua
+2017,0,Chihuahua
+2018,1.4166666666666667,Chihuahua
+2019,0,Chihuahua
+2020,7,Chihuahua
+2021,5.416666666666666,Chihuahua
+2022,3.083333333333333,Chihuahua
+2023,3.583333333333333,Chihuahua
+2024,3.25,Chihuahua
+2004,0,Mexico City
+2005,0,Mexico City
+2006,0,Mexico City
+2007,0,Mexico City
+2008,0,Mexico City
+2009,0,Mexico City
+2010,7.083333333333334,Mexico City
+2011,0,Mexico City
+2012,2.3333333333333335,Mexico City
+2013,0,Mexico City
+2014,0,Mexico City
+2015,0,Mexico City
+2016,11.666666666666666,Mexico City
+2017,35.583333333333336,Mexico City
+2018,45.916666666666664,Mexico City
+2019,56.25,Mexico City
+2020,54.75,Mexico City
+2021,45.083333333333336,Mexico City
+2022,38.583333333333336,Mexico City
+2023,34.833333333333336,Mexico City
+2024,33.083333333333336,Mexico City
+2004,0,Durango
+2005,0,Durango
+2006,8.333333333333334,Durango
+2007,0,Durango
+2008,0,Durango
+2009,3.333333333333333,Durango
+2010,0,Durango
+2011,0,Durango
+2012,0,Durango
+2013,1.0833333333333335,Durango
+2014,0.4166666666666667,Durango
+2015,0,Durango
+2016,0,Durango
+2017,0,Durango
+2018,0,Durango
+2019,0,Durango
+2020,0.25,Durango
+2021,0,Durango
+2022,0,Durango
+2023,0,Durango
+2024,0.25,Durango
+2004,0,Guanajuato
+2005,0,Guanajuato
+2006,0,Guanajuato
+2007,0,Guanajuato
+2008,16.083333333333336,Guanajuato
+2009,0,Guanajuato
+2010,5.333333333333333,Guanajuato
+2011,18.5,Guanajuato
+2012,20.25,Guanajuato
+2013,18.583333333333332,Guanajuato
+2014,15.083333333333332,Guanajuato
+2015,13.916666666666666,Guanajuato
+2016,3.75,Guanajuato
+2017,3.833333333333333,Guanajuato
+2018,1.0833333333333333,Guanajuato
+2019,5.916666666666666,Guanajuato
+2020,7.416666666666666,Guanajuato
+2021,6.083333333333334,Guanajuato
+2022,2.75,Guanajuato
+2023,0,Guanajuato
+2024,0,Guanajuato
+2004,0,Guerrero
+2005,0,Guerrero
+2006,0,Guerrero
+2007,7.75,Guerrero
+2008,13.833333333333334,Guerrero
+2009,0,Guerrero
+2010,0,Guerrero
+2011,9.416666666666668,Guerrero
+2012,10,Guerrero
+2013,11.666666666666666,Guerrero
+2014,9.5,Guerrero
+2015,8.5,Guerrero
+2016,0,Guerrero
+2017,2,Guerrero
+2018,0,Guerrero
+2019,3.416666666666667,Guerrero
+2020,9.083333333333334,Guerrero
+2021,7.333333333333333,Guerrero
+2022,5.083333333333333,Guerrero
+2023,3.9166666666666665,Guerrero
+2024,4.416666666666666,Guerrero
+2004,0,Hidalgo
+2005,0,Hidalgo
+2006,0,Hidalgo
+2007,0,Hidalgo
+2008,6.583333333333333,Hidalgo
+2009,19.75,Hidalgo
+2010,34.91666666666667,Hidalgo
+2011,43.75,Hidalgo
+2012,27.083333333333332,Hidalgo
+2013,18.833333333333336,Hidalgo
+2014,18.083333333333332,Hidalgo
+2015,10.666666666666666,Hidalgo
+2016,0,Hidalgo
+2017,5.5,Hidalgo
+2018,1.0833333333333335,Hidalgo
+2019,8.583333333333334,Hidalgo
+2020,9.916666666666668,Hidalgo
+2021,7.25,Hidalgo
+2022,7.583333333333334,Hidalgo
+2023,7.166666666666666,Hidalgo
+2024,2.916666666666667,Hidalgo
+2004,0,Jalisco
+2005,0,Jalisco
+2006,0,Jalisco
+2007,0,Jalisco
+2008,5.25,Jalisco
+2009,34.41666666666667,Jalisco
+2010,30.083333333333336,Jalisco
+2011,29.333333333333332,Jalisco
+2012,30.25,Jalisco
+2013,28.416666666666668,Jalisco
+2014,22.416666666666668,Jalisco
+2015,15.166666666666668,Jalisco
+2016,1,Jalisco
+2017,3.166666666666667,Jalisco
+2018,4.166666666666666,Jalisco
+2019,9.666666666666668,Jalisco
+2020,16.666666666666664,Jalisco
+2021,13.166666666666668,Jalisco
+2022,12.083333333333332,Jalisco
+2023,3.75,Jalisco
+2024,3,Jalisco
+2004,0,Mexico
+2005,0,Mexico
+2006,0,Mexico
+2007,8.333333333333332,Mexico
+2008,7.583333333333332,Mexico
+2009,0,Mexico
+2010,0,Mexico
+2011,0,Mexico
+2012,4.333333333333334,Mexico
+2013,9,Mexico
+2014,1.3333333333333333,Mexico
+2015,8.5,Mexico
+2016,1.25,Mexico
+2017,3.583333333333333,Mexico
+2018,2.666666666666667,Mexico
+2019,5.583333333333334,Mexico
+2020,22.583333333333332,Mexico
+2021,29.333333333333332,Mexico
+2022,33.666666666666664,Mexico
+2023,25.416666666666668,Mexico
+2024,24.583333333333332,Mexico
+2004,0,Michoacan
+2005,0,Michoacan
+2006,0,Michoacan
+2007,0,Michoacan
+2008,0,Michoacan
+2009,0,Michoacan
+2010,0,Michoacan
+2011,0,Michoacan
+2012,0,Michoacan
+2013,0,Michoacan
+2014,0,Michoacan
+2015,0,Michoacan
+2016,0,Michoacan
+2017,0,Michoacan
+2018,0,Michoacan
+2019,0,Michoacan
+2020,5.583333333333333,Michoacan
+2021,0,Michoacan
+2022,11.083333333333332,Michoacan
+2023,0,Michoacan
+2024,0,Michoacan
+2004,0,Nayarit
+2005,0,Nayarit
+2006,0,Nayarit
+2007,8.333333333333334,Nayarit
+2008,0,Nayarit
+2009,0,Nayarit
+2010,0,Nayarit
+2011,0,Nayarit
+2012,0,Nayarit
+2013,0,Nayarit
+2014,0,Nayarit
+2015,0,Nayarit
+2016,0,Nayarit
+2017,0,Nayarit
+2018,0.75,Nayarit
+2019,0,Nayarit
+2020,1.75,Nayarit
+2021,0,Nayarit
+2022,0,Nayarit
+2023,0.5,Nayarit
+2024,0,Nayarit
+2004,0,Nuevo Leon
+2005,0,Nuevo Leon
+2006,0,Nuevo Leon
+2007,0,Nuevo Leon
+2008,0,Nuevo Leon
+2009,0,Nuevo Leon
+2010,8.333333333333332,Nuevo Leon
+2011,0,Nuevo Leon
+2012,0,Nuevo Leon
+2013,0,Nuevo Leon
+2014,0,Nuevo Leon
+2015,0,Nuevo Leon
+2016,0,Nuevo Leon
+2017,0,Nuevo Leon
+2018,0,Nuevo Leon
+2019,0,Nuevo Leon
+2020,0,Nuevo Leon
+2021,0,Nuevo Leon
+2022,0,Nuevo Leon
+2023,0,Nuevo Leon
+2024,0,Nuevo Leon
+2004,0,Oaxaca
+2005,0,Oaxaca
+2006,0,Oaxaca
+2007,0,Oaxaca
+2008,8.333333333333332,Oaxaca
+2009,0,Oaxaca
+2010,0,Oaxaca
+2011,19.333333333333332,Oaxaca
+2012,14.333333333333332,Oaxaca
+2013,19,Oaxaca
+2014,16.583333333333332,Oaxaca
+2015,14.083333333333334,Oaxaca
+2016,3.4166666666666665,Oaxaca
+2017,3,Oaxaca
+2018,4.75,Oaxaca
+2019,6,Oaxaca
+2020,4.666666666666666,Oaxaca
+2021,5.583333333333333,Oaxaca
+2022,4.5,Oaxaca
+2023,1.0833333333333335,Oaxaca
+2024,1.333333333333333,Oaxaca
+2004,0,Morelos
+2005,0,Morelos
+2006,0,Morelos
+2007,0,Morelos
+2008,0,Morelos
+2009,8.333333333333332,Morelos
+2010,12.75,Morelos
+2011,4.5,Morelos
+2012,11.75,Morelos
+2013,18.333333333333336,Morelos
+2014,12.416666666666668,Morelos
+2015,12.25,Morelos
+2016,1.75,Morelos
+2017,0,Morelos
+2018,1.5,Morelos
+2019,4.333333333333334,Morelos
+2020,6.166666666666666,Morelos
+2021,2.5,Morelos
+2022,7.166666666666666,Morelos
+2023,0,Morelos
+2024,0,Morelos
+2004,8.333333333333332,Puebla
+2005,0,Puebla
+2006,0,Puebla
+2007,0,Puebla
+2008,4.5,Puebla
+2009,6.583333333333333,Puebla
+2010,7.083333333333334,Puebla
+2011,8.416666666666666,Puebla
+2012,7.166666666666667,Puebla
+2013,4.666666666666667,Puebla
+2014,5.083333333333333,Puebla
+2015,3.4166666666666665,Puebla
+2016,1.6666666666666665,Puebla
+2017,1.1666666666666665,Puebla
+2018,0.8333333333333334,Puebla
+2019,2.5833333333333335,Puebla
+2020,3.4166666666666665,Puebla
+2021,2.0833333333333335,Puebla
+2022,1.9166666666666667,Puebla
+2023,1.1666666666666667,Puebla
+2024,0.33333333333333337,Puebla
+2004,0,Queretaro
+2005,0,Queretaro
+2006,0,Queretaro
+2007,0,Queretaro
+2008,0,Queretaro
+2009,0,Queretaro
+2010,0,Queretaro
+2011,0,Queretaro
+2012,0,Queretaro
+2013,0,Queretaro
+2014,0,Queretaro
+2015,0,Queretaro
+2016,0,Queretaro
+2017,8.333333333333336,Queretaro
+2018,0,Queretaro
+2019,0,Queretaro
+2020,0,Queretaro
+2021,0,Queretaro
+2022,0,Queretaro
+2023,0,Queretaro
+2024,0,Queretaro
+2004,0,Quintana Roo
+2005,0,Quintana Roo
+2006,0,Quintana Roo
+2007,0,Quintana Roo
+2008,0,Quintana Roo
+2009,0,Quintana Roo
+2010,0,Quintana Roo
+2011,0,Quintana Roo
+2012,15.666666666666666,Quintana Roo
+2013,0,Quintana Roo
+2014,0,Quintana Roo
+2015,0,Quintana Roo
+2016,5.666666666666668,Quintana Roo
+2017,0,Quintana Roo
+2018,0,Quintana Roo
+2019,0,Quintana Roo
+2020,9.083333333333332,Quintana Roo
+2021,0,Quintana Roo
+2022,0,Quintana Roo
+2023,3.5,Quintana Roo
+2024,0,Quintana Roo
+2004,0,San Luis Potosi
+2005,0,San Luis Potosi
+2006,0,San Luis Potosi
+2007,0,San Luis Potosi
+2008,0,San Luis Potosi
+2009,0,San Luis Potosi
+2010,0,San Luis Potosi
+2011,0,San Luis Potosi
+2012,0,San Luis Potosi
+2013,0,San Luis Potosi
+2014,0,San Luis Potosi
+2015,0,San Luis Potosi
+2016,0,San Luis Potosi
+2017,8.333333333333332,San Luis Potosi
+2018,0,San Luis Potosi
+2019,0,San Luis Potosi
+2020,0,San Luis Potosi
+2021,0,San Luis Potosi
+2022,0,San Luis Potosi
+2023,0,San Luis Potosi
+2024,0,San Luis Potosi
+2004,0,Sinaloa
+2005,0,Sinaloa
+2006,0,Sinaloa
+2007,14.666666666666668,Sinaloa
+2008,5,Sinaloa
+2009,3.3333333333333335,Sinaloa
+2010,0,Sinaloa
+2011,6.25,Sinaloa
+2012,2.166666666666667,Sinaloa
+2013,0.9166666666666667,Sinaloa
+2014,2.583333333333333,Sinaloa
+2015,0,Sinaloa
+2016,0.8333333333333334,Sinaloa
+2017,0,Sinaloa
+2018,0.75,Sinaloa
+2019,0,Sinaloa
+2020,0.5833333333333334,Sinaloa
+2021,0,Sinaloa
+2022,0.5833333333333333,Sinaloa
+2023,0,Sinaloa
+2024,0.9166666666666667,Sinaloa
+2004,0,Sonora
+2005,0,Sonora
+2006,0,Sonora
+2007,0,Sonora
+2008,0,Sonora
+2009,0,Sonora
+2010,18.666666666666664,Sonora
+2011,9.833333333333332,Sonora
+2012,8.833333333333332,Sonora
+2013,3.5,Sonora
+2014,7.416666666666666,Sonora
+2015,1.1666666666666665,Sonora
+2016,0,Sonora
+2017,1.1666666666666665,Sonora
+2018,1.333333333333333,Sonora
+2019,0,Sonora
+2020,3.5833333333333335,Sonora
+2021,1.1666666666666665,Sonora
+2022,0,Sonora
+2023,0,Sonora
+2024,0,Sonora
+2004,0,Tabasco
+2005,0,Tabasco
+2006,0,Tabasco
+2007,8.333333333333334,Tabasco
+2008,0,Tabasco
+2009,0,Tabasco
+2010,0,Tabasco
+2011,0,Tabasco
+2012,0,Tabasco
+2013,5.666666666666666,Tabasco
+2014,1.3333333333333333,Tabasco
+2015,2.166666666666667,Tabasco
+2016,1.1666666666666667,Tabasco
+2017,0,Tabasco
+2018,1.416666666666667,Tabasco
+2019,2,Tabasco
+2020,6.416666666666667,Tabasco
+2021,0.9166666666666667,Tabasco
+2022,0,Tabasco
+2023,0,Tabasco
+2024,0,Tabasco
+2004,0,Tlaxcala
+2005,0,Tlaxcala
+2006,0,Tlaxcala
+2007,0,Tlaxcala
+2008,0,Tlaxcala
+2009,0,Tlaxcala
+2010,0,Tlaxcala
+2011,8.333333333333332,Tlaxcala
+2012,0,Tlaxcala
+2013,8.5,Tlaxcala
+2014,0,Tlaxcala
+2015,0,Tlaxcala
+2016,0,Tlaxcala
+2017,0,Tlaxcala
+2018,0,Tlaxcala
+2019,0,Tlaxcala
+2020,3.916666666666666,Tlaxcala
+2021,2.916666666666667,Tlaxcala
+2022,0,Tlaxcala
+2023,0,Tlaxcala
+2024,0,Tlaxcala
+2004,0,Veracruz
+2005,0,Veracruz
+2006,0,Veracruz
+2007,0,Veracruz
+2008,11.916666666666668,Veracruz
+2009,49.25,Veracruz
+2010,27.25,Veracruz
+2011,41,Veracruz
+2012,28.5,Veracruz
+2013,26.75,Veracruz
+2014,15.416666666666668,Veracruz
+2015,13,Veracruz
+2016,6.333333333333333,Veracruz
+2017,4.833333333333334,Veracruz
+2018,4,Veracruz
+2019,11.166666666666666,Veracruz
+2020,11.166666666666668,Veracruz
+2021,7.25,Veracruz
+2022,7.166666666666666,Veracruz
+2023,1.6666666666666667,Veracruz
+2024,1.8333333333333333,Veracruz
+2004,0,Yucatan
+2005,0,Yucatan
+2006,0,Yucatan
+2007,0,Yucatan
+2008,0,Yucatan
+2009,0,Yucatan
+2010,0,Yucatan
+2011,0,Yucatan
+2012,0,Yucatan
+2013,0,Yucatan
+2014,0,Yucatan
+2015,0,Yucatan
+2016,0,Yucatan
+2017,0,Yucatan
+2018,0,Yucatan
+2019,0,Yucatan
+2020,0,Yucatan
+2021,0,Yucatan
+2022,0,Yucatan
+2023,8.333333333333334,Yucatan
+2024,0,Yucatan
+2004,0,Zacatecas
+2005,0,Zacatecas
+2006,0,Zacatecas
+2007,0,Zacatecas
+2008,0,Zacatecas
+2009,0,Zacatecas
+2010,0,Zacatecas
+2011,0,Zacatecas
+2012,8.333333333333334,Zacatecas
+2013,4.25,Zacatecas
+2014,0,Zacatecas
+2015,0,Zacatecas
+2016,0,Zacatecas
+2017,3.9166666666666665,Zacatecas
+2018,0,Zacatecas
+2019,0,Zacatecas
+2020,3.4166666666666665,Zacatecas
+2021,0,Zacatecas
+2022,2.5,Zacatecas
+2023,0,Zacatecas
+2024,3.083333333333333,Zacatecas
+2004,0,Tamaulipas
+2005,0,Tamaulipas
+2006,0,Tamaulipas
+2007,8.333333333333332,Tamaulipas
+2008,0,Tamaulipas
+2009,0,Tamaulipas
+2010,7.5,Tamaulipas
+2011,5,Tamaulipas
+2012,1.1666666666666667,Tamaulipas
+2013,0.9166666666666667,Tamaulipas
+2014,0,Tamaulipas
+2015,0.8333333333333334,Tamaulipas
+2016,0,Tamaulipas
+2017,0,Tamaulipas
+2018,0,Tamaulipas
+2019,0.8333333333333333,Tamaulipas
+2020,2.416666666666667,Tamaulipas
+2021,1.5,Tamaulipas
+2022,0,Tamaulipas
+2023,0,Tamaulipas
+2024,0,Tamaulipas

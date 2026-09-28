@@ -1,0 +1,268 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1999,09,09,Egresos,Tema,Total de egresos,46897493100,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Servicios personales,9451610000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Remuneraciones al personal,3755957300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Jefatura de Gobierno,28835900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Gobierno,296801900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,278143100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Salud,513609200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,637619700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,60253800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Turismo,8667400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría del Medio Ambiente,20601600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Social,97141300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,1004130700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,547623800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Contraloría General,18520100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Oficialía Mayor,102305600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Dependencias diversas,141703200,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Remuneraciones adicionales y especiales,2227495800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Primas por años de servicios efectivos prestados,72147400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Primas de vacaciones, dominical y gratificación de fin de año",564866200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Horas extraordinarias,231967100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Compensaciones,1358515100,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Seguridad social,946832000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Aportaciones de seguridad social,614664500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Aportaciones a fondos de vivienda,217406300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Aportaciones al sistema para el retiro,826400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Aportaciones para seguros,113934800,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Otras prestaciones sociales y económicas,1886041500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Cuotas para el fondo de ahorro y fondo de trabajo,177418700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Indemnizaciones,30589600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Prestaciones y haberes de retiro,72700300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otras prestaciones sociales y económicas,1605332900,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Pago de estímulos a servidores públicos,635283400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Estímulos,635283400,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Materiales y suministros,1581260000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Materiales de administración, emisión de documentos y artículos oficiales",121595800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de oficina",60796400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Materiales y útiles de impresión y reproducción,10750600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Material estadístico y geográfico,65200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de tecnologías de la información y comunicaciones",33331400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Material impreso e información digital,6793500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Material de limpieza,9858700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Alimentos y utensilios,271090900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros alimentos y utensilios,271090900,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Herramientas, refacciones y accesorios menores",100476700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores otros bienes muebles,100476700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Materiales y artículos de construcción y de reparación,195134400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros materiales y artículos de construcción y reparación,195134400,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Productos químicos, farmacéuticos, laboratorio y materias primas de producción y comercialización",264340300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Productos químicos, farmacéuticos y de laboratorio",264340300,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Productos químicos básicos,57533900,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,"Fertilizantes, pesticidas y otros agroquímicos",664500,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Medicinas y productos farmacéuticos,78960200,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros médicos",75072600,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros de laboratorio",52109100,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Combustibles, lubricantes y aditivos",315103100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Combustibles, lubricantes y aditivos",315103100,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Vestuario, blancos, prendas de protección y artículos deportivos",311647700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Vestuario y uniformes,277570700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Prendas de seguridad y protección personal,28581300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Artículos deportivos,5495700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Materiales y suministros para seguridad,1871100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Materiales de seguridad pública,1871100,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Servicios generales,5579449200,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Servicios básicos,1850334400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Energía eléctrica,524772500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Agua,1192539200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Telefonía tradicional,113099800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios de telecomunicaciones y satélites,649300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios postales y telegráficos,19273600,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Servicios de arrendamiento,615485200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros arrendamientos,615485200,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Servicios profesionales, científicos, técnicos y otros servicios",1143261800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios de vigilancia,663915700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Servicios profesionales, científicos y técnicos integrales",479346100,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Servicios financieros, bancarios y comerciales",282344400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios financieros y bancarios,2204800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Servicios de recaudación, traslado y custodia de valores",34130400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Seguro de bienes patrimoniales,88625700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Almacenaje, envase y embalaje",272900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Fletes y maniobras,5856900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Servicios financieros, bancarios y comerciales integrales",151253700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Servicios de instalación, reparación, mantenimiento y conservación",428385400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Conservación y mantenimiento menor de inmuebles,42782400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo",23149600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información",20317600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de maquinaria, otros equipos y herramienta",238641800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios de limpieza y manejo de desechos,103494000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Servicios de comunicación social y publicidad,414505500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Difusión por radio, televisión y otros medios de mensajes sobre programas y actividades gubernamentales",405022200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros servicios de información,9483300,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Servicios de traslado y viáticos,39206600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios integrales de traslado y viáticos,39206600,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Servicios oficiales,771316000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Gastos de ceremonial,691400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Gastos de orden social y cultural,500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Congresos y convenciones,18668800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Diversos servicios oficiales,751955300,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Otros servicios generales,34609900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Impuestos y derechos,20675900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros servicios generales,13934000,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",9197274700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,8665391700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,A poderes,1494101200,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Legislativo,495018000,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Judicial,999083200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,6403194400,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas de salud,441700,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,23408600,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas de cultura y deporte,488669100,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas de seguridad pública,4491701400,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,28751700,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector agropecuario,31271000,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector económico,9547900,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas ecológicos,466558900,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones y programas de infraestructura,862844100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Órganos autónomos y electorales,674308700,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituto electoral,430334500,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Comisión de derechos humanos,72445600,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Diversos órganos autónomos y electorales,171528600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Diversas transferencias,93787400,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Instituciones privadas sin fines de lucro,30422200,Cifras Definitivas
+1999,09,09,Egresos,Subpartida Genérica,Otras transferencias,63365200,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Ayudas sociales,75546700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Ayudas sociales a personas,6958300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Becas y otras ayudas para programas de capacitación,68588400,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Subsidios y subvenciones,456336300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Subsidios a la distribución,456336300,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,"Bienes muebles, inmuebles e intangibles",1303575600,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Mobiliario y equipo de administración,67104600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Muebles de oficina y estantería,29682400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Equipo de cómputo y de tecnologías de la información,37422200,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Mobiliario y equipo educacional y recreativo,2645500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otro mobiliario y equipo educacional y recreativo,2645500,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Vehículos y equipo de transporte,403015100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros equipos de transporte,403015100,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Equipo de defensa y seguridad y equipo e instrumental médico y laboratorio,56754100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Equipo de defensa y seguridad,33609600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Equipo médico y de laboratorio,10136200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Instrumental médico y de laboratorio,13008300,Cifras Definitivas
+1999,09,09,Egresos,Concepto,"Maquinaria, otros equipos y herramientas",585964200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Maquinaria y equipo agropecuario,2139200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Maquinaria y equipo industrial,18930600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Maquinaria y equipo de construcción,76600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Equipo de comunicación y telecomunicación,129985500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,"Equipos de generación eléctrica, aparatos y accesorios eléctricos",38014100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Herramientas y máquinas-herramienta,8926700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros equipos,387891500,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Bienes inmuebles,188092100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Edificios no residenciales,109205700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Terrenos,55348400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros bienes inmuebles,23538000,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Inversión pública,1627683700,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,1627683700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otras construcciones de ingeniería civil u obra pesada,110163500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,1517520200,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Inversiones financieras y otras provisiones,4000000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Compra de títulos y valores,4000000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Otros valores,4000000,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,13697572000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,8246277500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Azcapotzalco,412626500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Coyoacán,481218800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Cuajimalpa de Morelos,264916600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Gustavo A. Madero,921409800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Iztacalco,377513800,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Iztapalapa,937990900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Magdalena Contreras,267311100,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Milpa Alta,242169300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Álvaro Obregón,621588200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Tláhuac,306500300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Tlalpan,466311500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Xochimilco,358828700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Benito Juárez,472467700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Cuauhtémoc,896054600,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Miguel Hidalgo,607382900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Venustiano Carranza,611986800,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Sector Paraestatal del Gobierno de la Ciudad de México,5451294500,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Heroico Cuerpo de Bomberos de la Ciudad de México,7511300,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Instituto de Vivienda de la Ciudad de México,346280200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Fideicomiso de Recuperación Crediticia de la Ciudad de México FIDERE III,6911900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Fondo de Desarrollo Económico de la Ciudad de México,127613400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Sistema para el Desarrollo Integral de la Familia,606171700,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Sistema de Transporte Colectivo (Metro),1961940400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicio de Transportes Eléctricos de la Ciudad de México,689565000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Caja de Previsión para Trabajadores a Lista de Raya de la Ciudad de México,50524900,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Servicios de Salud Pública de la Ciudad de México,1161004200,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Procuraduría Social de la Ciudad de México,58719000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Diversas Entidades Paraestatales de la Ciudad de México,435052500,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Deuda pública,2688046400,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Intereses de la deuda pública,2658115000,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,Diversos intereses,2658115000,Cifras Definitivas
+1999,09,09,Egresos,Concepto,Adeudos de ejercicios fiscales anteriores (ADEFAS),29931400,Cifras Definitivas
+1999,09,09,Egresos,Partida Genérica,ADEFAS,29931400,Cifras Definitivas
+1999,09,09,Egresos,Capítulo,Disponibilidad final,1767021500,Cifras Definitivas
+1999,09,09,Ingresos,Tema,Total de ingresos,46897493100,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Impuestos,9349373700,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,3815246200,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,3815246200,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,5297105600,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto predial,4335692000,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,149495600,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Enajenación de bienes muebles y adquisición de vehículos,30077100,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Adquisición de bienes inmuebles,781840900,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",237021900,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto sobre hospedaje,65024700,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,77978800,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,"Loterías, rifas, sorteos y juegos permitidos",94018400,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,46937900,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,46937900,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Derechos,8540784400,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",3719998600,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Registros,490574400,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Registro civil,72655300,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,417919100,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Licencias y permisos,125770200,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Comercio ambulante,16674500,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,109095700,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Inspecciones,58601500,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Sanidad,58601500,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,791168300,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,791168300,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Uso y suministro de agua potable,2161746200,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Servicios de desarrollo urbano y obras públicas,92138000,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Urbanización,92138000,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Derechos por prestación de servicios,4413053100,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Estacionamientos,21213400,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Seguridad pública,4391839700,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Otros Derechos,407732700,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Productos,1732723900,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Productos de tipo corriente,1417663400,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Arrendamientos,27206700,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Intereses,1197768800,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,192687900,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,192687900,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Productos de tipo capital,128771900,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,128771900,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,128771900,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Otros productos,186288600,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Aprovechamientos,1341872600,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,778319700,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Recargos,565511400,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Multas,212808300,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Otros aprovechamientos,563552900,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Participaciones federales,19095070800,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Fondos participables,15302759800,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,14005006200,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Fondo de Fomento Municipal,1297753600,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Impuestos participables,3773054300,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto sobre Tenencia o Uso de Vehículos,2485779100,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto sobre Automóviles Nuevos,813830800,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Impuesto Especial sobre Producción y Servicios,473444400,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Otras participaciones,19256700,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Multas administrativas federales no fiscales,15720200,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Incentivos por administración de impuestos,3536500,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Aportaciones federales,2148308000,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,1742215900,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Aportaciones a entidades federativas,1742215900,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,FA para los Servicios de Salud,1160454200,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,FA Múltiples,581761700,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Recursos federales reasignados,406092100,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Recursos federales diversos,406092100,Cifras Definitivas
+1999,09,09,Ingresos,Subpartida Genérica,Otros recursos federales,406092100,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Financiamiento,977131600,Cifras Definitivas
+1999,09,09,Ingresos,Concepto,Empréstitos,977131600,Cifras Definitivas
+1999,09,09,Ingresos,Partida Genérica,Empréstitos diversos,977131600,Cifras Definitivas
+1999,09,09,Ingresos,Capítulo,Disponibilidad inicial,3665290200,Cifras Definitivas

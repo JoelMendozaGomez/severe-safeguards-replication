@@ -1,0 +1,1475 @@
+=========================================================================
+Replication run started: 2026-09-28 17:06:12 UTC 
+R version: R version 4.3.3 (2024-02-29) 
+Working directory: /root/gh/severe-safeguards-replication 
+=========================================================================
+
+
+#########################################################################
+##   01_population_panel.R 
+#########################################################################
+
+── Attaching core tidyverse packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+New names:
+• `` -> `...1`
+• `` -> `...2`
+• `` -> `...3`
+• `` -> `...4`
+• `` -> `...5`
+• `` -> `...6`
+• `` -> `...7`
+• `` -> `...8`
+[1] "--- Checking 2021-2024 carry-forward fill (Aguascalientes) ---"
+
+[01_population_panel.R completed in 0.6 s]
+
+
+#########################################################################
+##   02_fiscal_panel.R 
+#########################################################################
+
+[1] "--- Processing: Chapter-level totals + explicit Convenios exceptions ---"
+[1] "--- Federal dependence summary (Ramo_28 + Ramo_33 / Total) ---"
+
+[02_fiscal_panel.R completed in 1.7 s]
+
+
+#########################################################################
+##   02b_ownsource_direct.R 
+#########################################################################
+
+[1] "--- Building direct own-source revenue panel ---"
+[1] "--- Direct own-source revenue: summary (millions, constant 2024 MXN) ---"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0    1366    2899    7446    6423  128848 
+Rows: 1152 | States: 32 | Years: 1989-2024
+
+[02b_ownsource_direct.R completed in 3.0 s]
+
+
+#########################################################################
+##   03_political_panel.R 
+#########################################################################
+
+[1] "--- Quality check: Jalisco (2018-2024) ---"
+  ENTIDAD ANIO Governor_Party Rupture_Alliance_Period Rhetoric_Intensity
+1 Jalisco 2018             MC                       0           4.166667
+2 Jalisco 2019             MC                       0           9.666667
+3 Jalisco 2020             MC                       1          16.666667
+4 Jalisco 2021             MC                       1          13.166667
+5 Jalisco 2022             MC                       0          12.083333
+6 Jalisco 2023             MC                       0           3.750000
+7 Jalisco 2024             MC                       0           3.000000
+[1] "Process complete. 'Base_Final_Publius_Definitiva.csv' created with columns 'ENTIDAD' and 'ANIO'."
+
+[03_political_panel.R completed in 0.3 s]
+
+
+#########################################################################
+##   04_ici_construction.R 
+#########################################################################
+
+Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+[1] "--- 1. Loading and merging panels ---"
+[1] "--- 2. Constructing variance-weighted PCA index ---"
+[1] "Component weights: PC1: 0.355 | PC2: 0.33 | PC3: 0.315"
+[1] "--- 2b. Constructing two-component robustness index ---"
+[1] "Renormalized weights (two components only): PC1: 0.518 | PC2: 0.482"
+[1] "Correlation between three-component and two-component ICI: 0.849"
+[1] "--- 3. Diagnostics: which fiscal variable moves the weighted index? ---"
+[1] "Correlation, Ramo 28 (discretionary): -0.1448"
+[1] "Correlation, Ramo 33 (earmarked): -0.0281"
+[1] "Correlation, Convenios (agreements): -0.053"
+[1] "--- Top 5 most conflictive state-years (weighted index) ---"
+# A tibble: 5 × 5
+  ENTIDAD      ANIO Indice_Conflictividad_W n_conflicts Rhetoric_Intensity
+  <chr>       <dbl>                   <dbl>       <dbl>              <dbl>
+1 Jalisco      2009                   1               1               34.4
+2 Mexico City  2000                   0.945           2                0  
+3 Mexico City  2001                   0.945           2                0  
+4 Mexico City  2009                   0.945           2                0  
+5 Jalisco      2020                   0.690           0               16.7
+[1] "--- 4. Generating PCA loadings biplot ---"
+[1] "--- 5. Extracting variable contributions ---"
+[1] "--- Variable contribution table (%) ---"
+                           Dim.1     Dim.2    Dim.3
+log_Rhetoric            45.13443  2.585346 52.28022
+n_conflicts             13.81550 84.187433  1.99707
+Rupture_Alliance_Period 41.05007 13.227221 45.72271
+[1] "Contribution tables and figures generated."
+
+[04_ici_construction.R completed in 1.8 s]
+
+
+#########################################################################
+##   05_main_analysis.R 
+#########################################################################
+
+
+Please cite as: 
+
+ Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables.
+ R package version 5.2.3. https://CRAN.R-project.org/package=stargazer 
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+See details in:
+Carlos Cinelli and Chad Hazlett (2020). Making Sense of Sensitivity: Extending Omitted Variable Bias. Journal of the Royal Statistical Society, Series B (Statistical Methodology).
+
+Attaching package: ‘plm’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, lag, lead
+
+Loading required package: carData
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+The following object is masked from ‘package:purrr’:
+
+    some
+
+[1] ">>> TABLE 1: Effect of Fiscal Opportunism and Fiscal Strength (Lagged t-1) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:21
+\begin{table}[!htbp] \centering 
+  \caption{Effect of Fiscal Opportunism and Fiscal Strength (Lagged t-1)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Indice\_Conflictividad\_W} \\ 
+ & Change (t-1) & Level (t-1) & Full (t-1) & Interaction (t-1) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Lag\_Cambio\_R28 & $-$0.084 &  & $-$0.218$^{**}$ & 2.049$^{***}$ \\ 
+  & (0.064) &  & (0.088) & (0.611) \\ 
+  Lag\_Cambio\_R33 & 0.00001$^{***}$ &  & 0.00001$^{***}$ & $-$0.025 \\ 
+  & (0.00000) &  & (0.00000) & (0.253) \\ 
+  Lag\_Cambio\_Conv & $-$0.00001 &  & $-$0.00001$^{**}$ & 0.0002 \\ 
+  & (0.00001) &  & (0.00001) & (0.0001) \\ 
+  Log\_Lag\_R28\_Abs &  & 0.211$^{***}$ & 0.281$^{***}$ & 0.287$^{***}$ \\ 
+  &  & (0.052) & (0.074) & (0.073) \\ 
+  Log\_Lag\_R33\_Abs &  & $-$0.011$^{**}$ & $-$0.010$^{*}$ & $-$0.009 \\ 
+  &  & (0.006) & (0.006) & (0.027) \\ 
+  Log\_Lag\_Conv\_Abs &  & 0.003 & 0.003 & 0.003 \\ 
+  &  & (0.003) & (0.003) & (0.003) \\ 
+  Log\_Poblacion & $-$0.260$^{**}$ & $-$0.342$^{***}$ & $-$0.369$^{***}$ & $-$0.336$^{***}$ \\ 
+  & (0.123) & (0.120) & (0.119) & (0.123) \\ 
+  Aligned1 & $-$0.004 & $-$0.005 & $-$0.005 & $-$0.006 \\ 
+  & (0.012) & (0.011) & (0.010) & (0.010) \\ 
+  factor(Governor\_Party)MC & 0.070$^{***}$ & 0.060$^{**}$ & 0.056$^{**}$ & 0.056$^{**}$ \\ 
+  & (0.024) & (0.025) & (0.024) & (0.024) \\ 
+  factor(Governor\_Party)MOR & $-$0.039 & $-$0.023 & $-$0.022 & $-$0.018 \\ 
+  & (0.045) & (0.044) & (0.045) & (0.045) \\ 
+  factor(Governor\_Party)PAN & 0.003 & 0.001 & $-$0.002 & 0.0003 \\ 
+  & (0.018) & (0.017) & (0.017) & (0.019) \\ 
+  factor(Governor\_Party)PES & $-$0.028 & 0.001 & 0.008 & 0.012 \\ 
+  & (0.033) & (0.030) & (0.030) & (0.031) \\ 
+  factor(Governor\_Party)PRD & 0.008 & 0.016 & 0.014 & 0.014 \\ 
+  & (0.022) & (0.021) & (0.021) & (0.021) \\ 
+  factor(Governor\_Party)PRI & $-$0.038$^{***}$ & $-$0.044$^{***}$ & $-$0.048$^{***}$ & $-$0.046$^{***}$ \\ 
+  & (0.013) & (0.011) & (0.011) & (0.012) \\ 
+  factor(Governor\_Party)PVEM & 0.050 & 0.049 & 0.039 & 0.042 \\ 
+  & (0.083) & (0.085) & (0.087) & (0.087) \\ 
+  Dependencia\_Federal & 0.102 & 0.104 & 0.104 & 0.104 \\ 
+  & (0.082) & (0.080) & (0.084) & (0.085) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.031$^{***}$ & $-$0.035$^{***}$ & $-$0.033$^{***}$ & $-$0.033$^{***}$ \\ 
+  & (0.011) & (0.010) & (0.010) & (0.010) \\ 
+  Log\_Lag\_R28\_Abs:Lag\_Cambio\_R28 &  &  &  & $-$0.234$^{***}$ \\ 
+  &  &  &  & (0.062) \\ 
+  Log\_Lag\_R33\_Abs:Lag\_Cambio\_R33 &  &  &  & 0.003 \\ 
+  &  &  &  & (0.027) \\ 
+  Log\_Lag\_Conv\_Abs:Lag\_Cambio\_Conv &  &  &  & $-$0.00002 \\ 
+  &  &  &  & (0.00001) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.058 & 0.071 & 0.081 & 0.093 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> VIF DIAGNOSTIC (GVIF for factors) <<<"
+                                 GVIF Df GVIF^(1/(2*Df))
+Log_Lag_R28_Abs          1.471649e+02  1       12.131156
+Log_Lag_R33_Abs          4.665975e+00  1        2.160087
+Log_Lag_Conv_Abs         2.854748e+00  1        1.689600
+Lag_Cambio_R28           3.124171e+00  1        1.767533
+Lag_Cambio_R33           1.095328e+00  1        1.046579
+Lag_Cambio_Conv          1.182247e+00  1        1.087312
+Log_Poblacion            3.480915e+02  1       18.657211
+Aligned                  1.737906e+00  1        1.318296
+factor(Governor_Party)   2.909031e+01  7        1.272194
+Dependencia_Federal      3.037751e+00  1        1.742914
+factor(Eleccion_Estatal) 1.221024e+00  1        1.104999
+factor(ENTIDAD)          1.164764e+05 27        1.241136
+factor(ANIO)             3.706456e+02 24        1.131149
+[1] ">>> HAUSMAN TEST (TWFE vs. Random Effects) <<<"
+
+	Hausman Test
+
+data:  Indice_Conflictividad_W ~ Log_Lag_R28_Abs + Log_Lag_R33_Abs +  ...
+chisq = 50.333, df = 17, p-value = 3.75e-05
+alternative hypothesis: one model is inconsistent
+
+[1] ">>> APPENDIX TABLE: Random Effects (with President Party FE) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:23
+\begin{table}[!htbp] \centering 
+  \caption{Effect of Fiscal Opportunism and Fiscal Strength (Lagged t-1) -- Random Effects} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Indice\_Conflictividad\_W} \\ 
+ & Change (t-1) & Level (t-1) & Full (t-1) & Interaction (t-1) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Lag\_Cambio\_R28 & $-$0.142$^{**}$ &  & $-$0.218$^{***}$ & 2.209$^{***}$ \\ 
+  & (0.057) &  & (0.066) & (0.580) \\ 
+  Lag\_Cambio\_R33 & 0.00000 &  & 0.00000$^{***}$ & $-$0.318 \\ 
+  & (0.00000) &  & (0.00000) & (0.259) \\ 
+  Lag\_Cambio\_Conv & $-$0.00001$^{*}$ &  & $-$0.00001$^{**}$ & 0.0001 \\ 
+  & (0.00001) &  & (0.00001) & (0.0001) \\ 
+  Log\_Lag\_R28\_Abs &  & 0.132$^{***}$ & 0.171$^{***}$ & 0.189$^{***}$ \\ 
+  &  & (0.051) & (0.057) & (0.062) \\ 
+  Log\_Lag\_R33\_Abs &  & 0.003 & 0.001 & 0.024 \\ 
+  &  & (0.015) & (0.014) & (0.029) \\ 
+  Log\_Lag\_Conv\_Abs &  & 0.006$^{*}$ & 0.006$^{*}$ & 0.004 \\ 
+  &  & (0.003) & (0.003) & (0.003) \\ 
+  Log\_Poblacion & 0.073$^{***}$ & $-$0.051 & $-$0.084$^{*}$ & $-$0.108$^{**}$ \\ 
+  & (0.011) & (0.044) & (0.050) & (0.054) \\ 
+  Aligned1 & $-$0.001 & 0.001 & 0.001 & $-$0.001 \\ 
+  & (0.012) & (0.011) & (0.011) & (0.010) \\ 
+  factor(Governor\_Party)MC & 0.114$^{***}$ & 0.112$^{***}$ & 0.105$^{***}$ & 0.089$^{***}$ \\ 
+  & (0.040) & (0.037) & (0.035) & (0.030) \\ 
+  factor(Governor\_Party)MOR & $-$0.006 & 0.001 & $-$0.008 & $-$0.011 \\ 
+  & (0.035) & (0.033) & (0.032) & (0.034) \\ 
+  factor(Governor\_Party)PAN & 0.036$^{***}$ & 0.038$^{***}$ & 0.034$^{**}$ & 0.021 \\ 
+  & (0.013) & (0.013) & (0.013) & (0.014) \\ 
+  factor(Governor\_Party)PES & 0.028 & 0.050$^{**}$ & 0.043$^{**}$ & 0.032 \\ 
+  & (0.023) & (0.022) & (0.021) & (0.023) \\ 
+  factor(Governor\_Party)PRD & 0.047$^{*}$ & 0.061$^{**}$ & 0.056$^{**}$ & 0.040 \\ 
+  & (0.028) & (0.026) & (0.027) & (0.025) \\ 
+  factor(Governor\_Party)PRI & 0.004 & 0.005 & $-$0.0004 & $-$0.016 \\ 
+  & (0.013) & (0.012) & (0.012) & (0.011) \\ 
+  factor(Governor\_Party)PVEM & 0.096 & 0.094 & 0.082 & 0.067 \\ 
+  & (0.098) & (0.095) & (0.097) & (0.093) \\ 
+  Dependencia\_Federal & 0.064 & 0.110 & 0.106 & 0.118 \\ 
+  & (0.093) & (0.102) & (0.107) & (0.100) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.030$^{***}$ & $-$0.033$^{***}$ & $-$0.033$^{***}$ & $-$0.032$^{***}$ \\ 
+  & (0.010) & (0.009) & (0.009) & (0.009) \\ 
+  factor(President\_Party)PAN & $-$0.049 & 0.004 & 0.024 & 0.033 \\ 
+  & (0.040) & (0.035) & (0.033) & (0.037) \\ 
+  factor(President\_Party)PRI & $-$0.026 & 0.003 & 0.013 & 0.020 \\ 
+  & (0.038) & (0.035) & (0.033) & (0.038) \\ 
+  Log\_Lag\_R28\_Abs:Lag\_Cambio\_R28 &  &  &  & $-$0.249$^{***}$ \\ 
+  &  &  &  & (0.060) \\ 
+  Log\_Lag\_R33\_Abs:Lag\_Cambio\_R33 &  &  &  & 0.034 \\ 
+  &  &  &  & (0.027) \\ 
+  Log\_Lag\_Conv\_Abs:Lag\_Cambio\_Conv &  &  &  & $-$0.00001 \\ 
+  &  &  &  & (0.00001) \\ 
+  Constant & $-$1.000$^{***}$ & $-$0.633$^{***}$ & $-$0.504$^{**}$ & $-$0.544$^{**}$ \\ 
+  & (0.172) & (0.190) & (0.204) & (0.212) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.086 & 0.117 & 0.137 & 0.126 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> ROBUSTNESS: Partisan Alignment Null Result, With and Without President Party FE <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:24
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Partisan Alignment Null Result, With and Without President Party FE} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{Indice\_Conflictividad\_W} \\ 
+ & Full RE (with President Party FE) & Full RE (no President Party FE) \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.171$^{***}$ & 0.150$^{***}$ \\ 
+  & (0.057) & (0.053) \\ 
+  Log\_Lag\_R33\_Abs & 0.001 & 0.0001 \\ 
+  & (0.014) & (0.013) \\ 
+  Log\_Lag\_Conv\_Abs & 0.006$^{*}$ & 0.006$^{*}$ \\ 
+  & (0.003) & (0.003) \\ 
+  Lag\_Cambio\_R28 & $-$0.218$^{***}$ & $-$0.194$^{***}$ \\ 
+  & (0.066) & (0.066) \\ 
+  Lag\_Cambio\_R33 & 0.00000$^{***}$ & 0.00000$^{***}$ \\ 
+  & (0.00000) & (0.00000) \\ 
+  Lag\_Cambio\_Conv & $-$0.00001$^{**}$ & $-$0.00001$^{**}$ \\ 
+  & (0.00001) & (0.00001) \\ 
+  Log\_Poblacion & $-$0.084$^{*}$ & $-$0.066 \\ 
+  & (0.050) & (0.047) \\ 
+  Aligned1 & 0.001 & 0.002 \\ 
+  & (0.011) & (0.010) \\ 
+  factor(Governor\_Party)MC & 0.105$^{***}$ & 0.102$^{***}$ \\ 
+  & (0.035) & (0.033) \\ 
+  factor(Governor\_Party)MOR & $-$0.008 & $-$0.012 \\ 
+  & (0.032) & (0.028) \\ 
+  factor(Governor\_Party)PAN & 0.034$^{**}$ & 0.033$^{***}$ \\ 
+  & (0.013) & (0.013) \\ 
+  factor(Governor\_Party)PES & 0.043$^{**}$ & 0.037$^{**}$ \\ 
+  & (0.021) & (0.014) \\ 
+  factor(Governor\_Party)PRD & 0.056$^{**}$ & 0.055$^{**}$ \\ 
+  & (0.027) & (0.027) \\ 
+  factor(Governor\_Party)PRI & $-$0.0004 & $-$0.001 \\ 
+  & (0.012) & (0.012) \\ 
+  factor(Governor\_Party)PVEM & 0.082 & 0.080 \\ 
+  & (0.097) & (0.098) \\ 
+  Dependencia\_Federal & 0.106 & 0.117 \\ 
+  & (0.107) & (0.103) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.033$^{***}$ & $-$0.032$^{***}$ \\ 
+  & (0.009) & (0.009) \\ 
+  factor(President\_Party)PAN & 0.024 &  \\ 
+  & (0.033) &  \\ 
+  factor(President\_Party)PRI & 0.013 &  \\ 
+  & (0.033) &  \\ 
+  Constant & $-$0.504$^{**}$ & $-$0.538$^{***}$ \\ 
+  & (0.204) & (0.197) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 \\ 
+R$^{2}$ & 0.137 & 0.124 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> APPENDIX TABLE: Panel Data Structure <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:24
+\begin{table}[!htbp] \centering 
+  \caption{Panel Data Structure} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+n\_conflicts & 700 & 0.003 & 0.053 & 0 & 1 \\ 
+Rupture\_Alliance\_Period & 700 & 0.023 & 0.150 & 0 & 1 \\ 
+Rhetoric\_Intensity & 700 & 2.790 & 5.985 & 0.000 & 43.750 \\ 
+Total\_Oficial & 700 & 69,897.510 & 62,300.960 & 9,207.458 & 463,489.500 \\ 
+Ramo\_28 & 700 & 24,162.090 & 22,688.380 & 3,440.749 & 162,137.100 \\ 
+Ramo\_28\_ExFEIEF & 700 & 24,037.830 & 22,712.080 & 3,440.749 & 162,137.100 \\ 
+FEIEF & 700 & 124.255 & 507.652 & 0.000 & 4,436.823 \\ 
+FEIEF\_Share\_R28 & 700 & 0.008 & 0.040 & 0.000 & 0.351 \\ 
+Ramo\_33 & 700 & 34,218.050 & 26,131.280 & 0.000 & 183,980.000 \\ 
+Convenios & 700 & 9,421.149 & 9,000.282 & 0.000 & 68,940.440 \\ 
+Ingreso\_Local\_Residual & 700 & 2,096.230 & 13,629.830 & $-$30,627.360 & 102,760.000 \\ 
+Dependencia\_Federal & 700 & 0.860 & 0.079 & 0.470 & 0.973 \\ 
+Cambio\_Ramo28\_Pct & 700 & 0.046 & 0.079 & $-$0.211 & 0.361 \\ 
+Cambio\_Ramo33\_Pct & 700 & 17.712 & 467.650 & $-$0.994 & 12,372.890 \\ 
+Cambio\_Convenios\_Pct & 700 & 63.330 & 531.390 & $-$1.000 & 8,212.971 \\ 
+log\_Rhetoric & 700 & 0.655 & 1.012 & 0.000 & 3.801 \\ 
+Score\_PC1 & 700 & 0.033 & 0.942 & $-$3.218 & 5.629 \\ 
+Score\_PC2 & 700 & $-$0.057 & 0.544 & $-$0.233 & 7.080 \\ 
+Score\_PC3 & 700 & 0.004 & 0.949 & $-$4.844 & 3.163 \\ 
+Indice\_Weighted\_Raw & 700 & $-$0.006 & 0.539 & $-$0.357 & 3.008 \\ 
+Indice\_Conflictividad\_W & 700 & 0.104 & 0.160 & 0.000 & 1.000 \\ 
+Indice\_Weighted\_Raw\_2PC & 700 & $-$0.010 & 0.679 & $-$0.360 & 4.182 \\ 
+Indice\_Conflictividad\_2PC & 700 & 0.077 & 0.149 & 0.000 & 1.000 \\ 
+POBLACION & 700 & 3,222,169.000 & 2,908,970.000 & 424,041.000 & 16,992,418.000 \\ 
+OwnSourceRevenue\_Direct & 700 & 6,250.181 & 7,719.844 & 346.806 & 55,319.190 \\ 
+Log\_Poblacion & 700 & 14.701 & 0.739 & 12.958 & 16.648 \\ 
+Log\_Lag\_R28\_Abs & 700 & 9.767 & 0.730 & 7.931 & 11.969 \\ 
+Log\_Lag\_R33\_Abs & 700 & 10.168 & 0.795 & 0.000 & 12.123 \\ 
+Log\_Lag\_Conv\_Abs & 700 & 8.133 & 2.342 & 0.000 & 11.141 \\ 
+Cambio\_R28 & 700 & 0.046 & 0.079 & $-$0.211 & 0.361 \\ 
+Cambio\_R33 & 700 & 17.712 & 467.650 & $-$0.994 & 12,372.890 \\ 
+Cambio\_Conv & 700 & 63.330 & 531.390 & $-$1.000 & 8,212.971 \\ 
+Lag\_Cambio\_R28 & 700 & 0.047 & 0.079 & $-$0.211 & 0.361 \\ 
+Lag\_Cambio\_R33 & 700 & 17.718 & 467.650 & $-$0.994 & 12,372.890 \\ 
+Lag\_Cambio\_Conv & 700 & 65.509 & 533.147 & $-$1.000 & 8,212.971 \\ 
+Log\_Lag\_FEIEF\_Abs & 700 & 0.701 & 2.022 & 0.000 & 8.398 \\ 
+Log\_Lag\_R28\_ExFEIEF\_Abs & 700 & 9.758 & 0.734 & 7.931 & 11.969 \\ 
+Lag\_FEIEF\_Share & 700 & 0.008 & 0.040 & 0.000 & 0.351 \\ 
+Log\_Lag\_OwnSource\_Abs & 700 & 4.237 & 4.141 & 0.000 & 11.540 \\ 
+Log\_Lag\_OwnSourceDirect\_Abs & 700 & 8.189 & 0.976 & 5.520 & 10.841 \\ 
+Eleccion\_Estatal & 700 & 0.174 & 0.380 & 0 & 1 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+[1] ">>> ROBUSTNESS: Oil-Producing States and the FEIEF Fund <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:25
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Oil-Producing States and the FEIEF Fund} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Indice\_Conflictividad\_W} \\ 
+ & Baseline (Level) & + Oil share control & Ramo 28 ex-FEIEF & FEIEF only (placebo) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.210$^{***}$ &  &  \\ 
+  & (0.052) & (0.052) &  &  \\ 
+  Log\_Lag\_R28\_ExFEIEF\_Abs &  &  & 0.188$^{***}$ &  \\ 
+  &  &  & (0.050) &  \\ 
+  Log\_Lag\_FEIEF\_Abs &  &  &  & $-$0.002 \\ 
+  &  &  &  & (0.007) \\ 
+  Log\_Lag\_R33\_Abs & $-$0.011$^{**}$ & $-$0.012$^{**}$ & $-$0.012$^{**}$ & $-$0.011$^{*}$ \\ 
+  & (0.006) & (0.006) & (0.005) & (0.006) \\ 
+  Log\_Lag\_Conv\_Abs & 0.003 & 0.003 & 0.003 & 0.003 \\ 
+  & (0.003) & (0.003) & (0.003) & (0.003) \\ 
+  Lag\_FEIEF\_Share &  & $-$0.092 &  &  \\ 
+  &  & (0.096) &  &  \\ 
+  Log\_Poblacion & $-$0.342$^{***}$ & $-$0.343$^{***}$ & $-$0.335$^{***}$ & $-$0.257$^{**}$ \\ 
+  & (0.120) & (0.120) & (0.122) & (0.128) \\ 
+  Aligned1 & $-$0.005 & $-$0.004 & $-$0.004 & $-$0.005 \\ 
+  & (0.011) & (0.011) & (0.011) & (0.012) \\ 
+  factor(Governor\_Party)MC & 0.060$^{**}$ & 0.059$^{**}$ & 0.060$^{**}$ & 0.061 \\ 
+  & (0.025) & (0.025) & (0.024) & (0.043) \\ 
+  factor(Governor\_Party)MOR & $-$0.023 & $-$0.023 & $-$0.024 & $-$0.044 \\ 
+  & (0.044) & (0.044) & (0.045) & (0.058) \\ 
+  factor(Governor\_Party)PAN & 0.001 & 0.001 & 0.001 & $-$0.005 \\ 
+  & (0.017) & (0.017) & (0.017) & (0.038) \\ 
+  factor(Governor\_Party)PES & 0.001 & 0.001 & $-$0.001 & $-$0.033 \\ 
+  & (0.030) & (0.030) & (0.031) & (0.050) \\ 
+  factor(Governor\_Party)PRD & 0.016 & 0.017 & 0.018 & 0.004 \\ 
+  & (0.021) & (0.022) & (0.021) & (0.025) \\ 
+  factor(Governor\_Party)PRI & $-$0.044$^{***}$ & $-$0.044$^{***}$ & $-$0.043$^{***}$ & $-$0.046 \\ 
+  & (0.011) & (0.012) & (0.012) & (0.038) \\ 
+  factor(Governor\_Party)PVEM & 0.049 & 0.050 & 0.051 & 0.049 \\ 
+  & (0.085) & (0.086) & (0.085) & (0.084) \\ 
+  Dependencia\_Federal & 0.104 & 0.110 & 0.117 & 0.109 \\ 
+  & (0.080) & (0.081) & (0.079) & (0.080) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.035$^{***}$ & $-$0.035$^{***}$ & $-$0.035$^{***}$ & $-$0.032$^{***}$ \\ 
+  & (0.010) & (0.010) & (0.010) & (0.011) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.071 & 0.070 & 0.057 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> ROBUSTNESS: Own-Source Revenue Control (DIRECT measure -- paper Table ownsource_robustness) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:26
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Own-Source Revenue Control (direct measure)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Indice\_Conflictividad\_W} \\ 
+ & Baseline (Level) & + Own-Source Control & Own-Source Only \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.208$^{***}$ &  \\ 
+  & (0.052) & (0.052) &  \\ 
+  Log\_Lag\_R33\_Abs & $-$0.011$^{**}$ & $-$0.011$^{*}$ & $-$0.010$^{*}$ \\ 
+  & (0.006) & (0.006) & (0.006) \\ 
+  Log\_Lag\_Conv\_Abs & 0.003 & 0.003 & 0.002 \\ 
+  & (0.003) & (0.003) & (0.003) \\ 
+  Log\_Lag\_OwnSourceDirect\_Abs &  & 0.012 & 0.018 \\ 
+  &  & (0.027) & (0.028) \\ 
+  Log\_Poblacion & $-$0.342$^{***}$ & $-$0.357$^{***}$ & $-$0.278$^{**}$ \\ 
+  & (0.120) & (0.121) & (0.127) \\ 
+  Aligned1 & $-$0.005 & $-$0.005 & $-$0.004 \\ 
+  & (0.011) & (0.010) & (0.011) \\ 
+  factor(Governor\_Party)MC & 0.060$^{**}$ & 0.058$^{**}$ & 0.067$^{***}$ \\ 
+  & (0.025) & (0.025) & (0.025) \\ 
+  factor(Governor\_Party)MOR & $-$0.023 & $-$0.024 & $-$0.038 \\ 
+  & (0.044) & (0.045) & (0.045) \\ 
+  factor(Governor\_Party)PAN & 0.001 & $-$0.001 & 0.0005 \\ 
+  & (0.017) & (0.017) & (0.017) \\ 
+  factor(Governor\_Party)PES & 0.001 & $-$0.001 & $-$0.027 \\ 
+  & (0.030) & (0.031) & (0.034) \\ 
+  factor(Governor\_Party)PRD & 0.016 & 0.013 & 0.006 \\ 
+  & (0.021) & (0.021) & (0.022) \\ 
+  factor(Governor\_Party)PRI & $-$0.044$^{***}$ & $-$0.045$^{***}$ & $-$0.040$^{***}$ \\ 
+  & (0.011) & (0.012) & (0.012) \\ 
+  factor(Governor\_Party)PVEM & 0.049 & 0.047 & 0.048 \\ 
+  & (0.085) & (0.086) & (0.081) \\ 
+  Dependencia\_Federal & 0.104 & 0.111 & 0.116 \\ 
+  & (0.080) & (0.084) & (0.081) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.035$^{***}$ & $-$0.035$^{***}$ & $-$0.033$^{***}$ \\ 
+  & (0.010) & (0.010) & (0.010) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.071 & 0.058 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> Own-source revenue as a share of total state income <<<"
+# A tibble: 1 × 6
+  direct_mean direct_median direct_sd residual_mean residual_median residual_sd
+        <dbl>         <dbl>     <dbl>         <dbl>           <dbl>       <dbl>
+1      0.0805        0.0722    0.0401        0.0489         0.00443      0.0756
+
+>>> Correlation between the direct and residual measures (logged, lagged) <<<
+[1] 0.2541762
+[1] ">>> COMPARISON ONLY: superseded residual-based own-source measure <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:27
+\begin{table}[!htbp] \centering 
+  \caption{Superseded: Own-Source Revenue Control (residual measure, not reported in the paper)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Indice\_Conflictividad\_W} \\ 
+ & Baseline (Level) & + Own-Source (residual) & Own-Source only (residual) \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.219$^{***}$ &  \\ 
+  & (0.052) & (0.049) &  \\ 
+  Log\_Lag\_R33\_Abs & $-$0.011$^{**}$ & $-$0.011$^{*}$ & $-$0.011$^{*}$ \\ 
+  & (0.006) & (0.006) & (0.006) \\ 
+  Log\_Lag\_Conv\_Abs & 0.003 & 0.005 & 0.005 \\ 
+  & (0.003) & (0.003) & (0.003) \\ 
+  Log\_Lag\_OwnSource\_Abs &  & 0.003$^{*}$ & 0.003 \\ 
+  &  & (0.002) & (0.002) \\ 
+  Log\_Poblacion & $-$0.342$^{***}$ & $-$0.365$^{***}$ & $-$0.271$^{**}$ \\ 
+  & (0.120) & (0.114) & (0.120) \\ 
+  Aligned1 & $-$0.005 & $-$0.006 & $-$0.006 \\ 
+  & (0.011) & (0.011) & (0.012) \\ 
+  factor(Governor\_Party)MC & 0.060$^{**}$ & 0.065$^{***}$ & 0.074$^{***}$ \\ 
+  & (0.025) & (0.025) & (0.025) \\ 
+  factor(Governor\_Party)MOR & $-$0.023 & $-$0.011 & $-$0.027 \\ 
+  & (0.044) & (0.046) & (0.046) \\ 
+  factor(Governor\_Party)PAN & 0.001 & 0.003 & 0.005 \\ 
+  & (0.017) & (0.017) & (0.017) \\ 
+  factor(Governor\_Party)PES & 0.001 & 0.007 & $-$0.020 \\ 
+  & (0.030) & (0.031) & (0.034) \\ 
+  factor(Governor\_Party)PRD & 0.016 & 0.018 & 0.013 \\ 
+  & (0.021) & (0.021) & (0.021) \\ 
+  factor(Governor\_Party)PRI & $-$0.044$^{***}$ & $-$0.042$^{***}$ & $-$0.036$^{***}$ \\ 
+  & (0.011) & (0.012) & (0.013) \\ 
+  factor(Governor\_Party)PVEM & 0.049 & 0.054 & 0.056 \\ 
+  & (0.085) & (0.083) & (0.079) \\ 
+  Dependencia\_Federal & 0.104 & 0.138$^{*}$ & 0.135$^{*}$ \\ 
+  & (0.080) & (0.081) & (0.079) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.035$^{***}$ & $-$0.036$^{***}$ & $-$0.033$^{***}$ \\ 
+  & (0.010) & (0.010) & (0.010) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.075 & 0.060 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> ROBUSTNESS: ICI with Three Components (Main) vs. Two Components Only <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:28
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: ICI with Three Components (Main) vs. Two Theoretically-Labeled Components Only} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & Indice\_Conflictividad\_W & Indice\_Conflictividad\_2PC \\ 
+ & ICI (3 components) & ICI (PC1+PC2 only) \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.079 \\ 
+  & (0.052) & (0.051) \\ 
+  Log\_Lag\_R33\_Abs & $-$0.011$^{**}$ & $-$0.009$^{***}$ \\ 
+  & (0.006) & (0.003) \\ 
+  Log\_Lag\_Conv\_Abs & 0.003 & 0.002 \\ 
+  & (0.003) & (0.002) \\ 
+  Log\_Poblacion & $-$0.342$^{***}$ & $-$0.270$^{***}$ \\ 
+  & (0.120) & (0.099) \\ 
+  Aligned1 & $-$0.005 & $-$0.006 \\ 
+  & (0.011) & (0.009) \\ 
+  factor(Governor\_Party)MC & 0.060$^{**}$ & 0.023 \\ 
+  & (0.025) & (0.026) \\ 
+  factor(Governor\_Party)MOR & $-$0.023 & $-$0.146$^{***}$ \\ 
+  & (0.044) & (0.030) \\ 
+  factor(Governor\_Party)PAN & 0.001 & $-$0.065$^{***}$ \\ 
+  & (0.017) & (0.016) \\ 
+  factor(Governor\_Party)PES & 0.001 & $-$0.138$^{***}$ \\ 
+  & (0.030) & (0.020) \\ 
+  factor(Governor\_Party)PRD & 0.016 & $-$0.072$^{***}$ \\ 
+  & (0.021) & (0.017) \\ 
+  factor(Governor\_Party)PRI & $-$0.044$^{***}$ & $-$0.113$^{***}$ \\ 
+  & (0.011) & (0.012) \\ 
+  factor(Governor\_Party)PVEM & 0.049 & $-$0.075 \\ 
+  & (0.085) & (0.073) \\ 
+  Dependencia\_Federal & 0.104 & 0.018 \\ 
+  & (0.080) & (0.090) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.035$^{***}$ & $-$0.027$^{**}$ \\ 
+  & (0.010) & (0.013) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.081 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> Ramo 28 residual ~ Governor Party + Aligned <<<"
+
+Call:
+lm(formula = resid_r28 ~ factor(Governor_Party) + Aligned, data = df_resid_check)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.311857 -0.036436 -0.001192  0.033639  0.308079 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(>|t|)  
+(Intercept)                -0.0283806  0.0301467  -0.941   0.3468  
+factor(Governor_Party)MC    0.0650455  0.0342946   1.897   0.0583 .
+factor(Governor_Party)MOR  -0.0004432  0.0311901  -0.014   0.9887  
+factor(Governor_Party)PAN   0.0340565  0.0306831   1.110   0.2674  
+factor(Governor_Party)PES  -0.0320448  0.0394713  -0.812   0.4172  
+factor(Governor_Party)PRD   0.0090670  0.0312354   0.290   0.7717  
+factor(Governor_Party)PRI   0.0386443  0.0304415   1.269   0.2047  
+factor(Governor_Party)PVEM  0.0561928  0.0369220   1.522   0.1285  
+Aligned1                   -0.0070474  0.0061545  -1.145   0.2526  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.06741 on 691 degrees of freedom
+Multiple R-squared:  0.052,	Adjusted R-squared:  0.04102 
+F-statistic: 4.738 on 8 and 691 DF,  p-value: 1.123e-05
+
+[1] ">>> F-test: does the political block explain the Ramo 28 residual? <<<"
+Analysis of Variance Table
+
+Model 1: resid_r28 ~ 1
+Model 2: resid_r28 ~ factor(Governor_Party) + Aligned
+  Res.Df    RSS Df Sum of Sq      F    Pr(>F)    
+1    699 3.3122                                  
+2    691 3.1400  8   0.17223 4.7377 1.123e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] ">>> Sensitivity analysis: Log_Lag_R28_Abs, benchmarked against Log_Poblacion <<<"
+Sensitivity Analysis to Unobserved Confounding
+
+Model Formula: Indice_Conflictividad_W ~ Log_Lag_R28_Abs + Log_Lag_R33_Abs + 
+    Log_Lag_Conv_Abs + Lag_Cambio_R28 + Lag_Cambio_R33 + Lag_Cambio_Conv + 
+    Log_Poblacion + Aligned + Dependencia_Federal + factor(ENTIDAD) + 
+    factor(ANIO)
+
+Null hypothesis: q = 1 and reduce = TRUE 
+
+Unadjusted Estimates of ' Log_Lag_R28_Abs ':
+  Coef. estimate: 0.25812 
+  Standard Error: 0.07053 
+  t-value: 3.65941 
+
+Sensitivity Statistics:
+  Partial R2 of treatment with outcome: 0.02053 
+  Robustness Value, q = 1 : 0.13466 
+  Robustness Value, q = 1 alpha = 0.05 : 0.06481 
+
+For more information, check summary.Sensitivity Analysis to Unobserved Confounding
+
+Model Formula: Indice_Conflictividad_W ~ Log_Lag_R28_Abs + Log_Lag_R33_Abs + 
+    Log_Lag_Conv_Abs + Lag_Cambio_R28 + Lag_Cambio_R33 + Lag_Cambio_Conv + 
+    Log_Poblacion + Aligned + Dependencia_Federal + factor(ENTIDAD) + 
+    factor(ANIO)
+
+Null hypothesis: q = 1 and reduce = TRUE 
+-- This means we are considering biases that reduce the absolute value of the current estimate.
+-- The null hypothesis deemed problematic is H0:tau = 0 
+
+Unadjusted Estimates of 'Log_Lag_R28_Abs': 
+  Coef. estimate: 0.2581 
+  Standard Error: 0.0705 
+  t-value (H0:tau = 0): 3.6594 
+
+Sensitivity Statistics:
+  Partial R2 of treatment with outcome: 0.0205 
+  Robustness Value, q = 1: 0.1347 
+  Robustness Value, q = 1, alpha = 0.05: 0.0648 
+
+Verbal interpretation of sensitivity statistics:
+
+-- Partial R2 of the treatment with the outcome: an extreme confounder (orthogonal to the covariates) that explains 100% of the residual variance of the outcome, would need to explain at least 2.05% of the residual variance of the treatment to fully account for the observed estimated effect.
+
+-- Robustness Value, q = 1: unobserved confounders (orthogonal to the covariates) that explain more than 13.47% of the residual variance of both the treatment and the outcome are strong enough to bring the point estimate to 0 (a bias of 100% of the original estimate). Conversely, unobserved confounders that do not explain more than 13.47% of the residual variance of both the treatment and the outcome are not strong enough to bring the point estimate to 0.
+
+-- Robustness Value, q = 1, alpha = 0.05: unobserved confounders (orthogonal to the covariates) that explain more than 6.48% of the residual variance of both the treatment and the outcome are strong enough to bring the estimate to a range where it is no longer 'statistically different' from 0 (a bias of 100% of the original estimate), at the significance level of alpha = 0.05. Conversely, unobserved confounders that do not explain more than 6.48% of the residual variance of both the treatment and the outcome are not strong enough to bring the estimate to a range where it is no longer 'statistically different' from 0, at the significance level of alpha = 0.05.
+
+Bounds on omitted variable bias:
+
+--The table below shows the maximum strength of unobserved confounders with association with the treatment and the outcome bounded by a multiple of the observed explanatory power of the chosen benchmark covariate(s).
+
+      Bound Label R2dz.x R2yz.dx       Treatment Adjusted Estimate Adjusted Se Adjusted T Adjusted Lower CI Adjusted Upper CI
+ 1x Log_Poblacion 0.0863  0.0199 Log_Lag_R28_Abs            0.1808      0.0731     2.4724            0.0372            0.3243
+ 2x Log_Poblacion 0.1727  0.0405 Log_Lag_R28_Abs            0.0942      0.0760     1.2391           -0.0551            0.2435
+ 3x Log_Poblacion 0.2590  0.0619 Log_Lag_R28_Abs           -0.0042      0.0794    -0.0532           -0.1602            0.1517
+       Bound Label R2dz.x R2yz.dx       Treatment Adjusted Estimate Adjusted Se Adjusted T Adjusted Lower CI Adjusted Upper CI
+1 1x Log_Poblacion 0.0863  0.0199 Log_Lag_R28_Abs            0.1808      0.0731     2.4724            0.0372            0.3243
+2 2x Log_Poblacion 0.1727  0.0405 Log_Lag_R28_Abs            0.0942      0.0760     1.2391           -0.0551            0.2435
+3 3x Log_Poblacion 0.2590  0.0619 Log_Lag_R28_Abs           -0.0042      0.0794    -0.0532           -0.1602            0.1517
+[1] ">>> Predicted values at min/mean/max fiscal capacity <<<"
+          x   predicted std.error   conf.low conf.high               group          facet
+1  7.930525 -0.48756999 0.4306894 -1.3333357 0.3581957 -0.0788485898480006 Non-Copartisan
+2  7.930525 -0.49334205 0.4310012 -1.3397201 0.3530360 -0.0788485898480006     Copartisan
+3  9.766548  0.07298785 0.4359292 -0.7830675 0.9290432 -0.0788485898480006 Non-Copartisan
+4  9.766548  0.06721579 0.4362145 -0.7893999 0.9238315 -0.0788485898480006     Copartisan
+5 11.968538  0.74527975 0.4940241 -0.2248594 1.7154189 -0.0788485898480006 Non-Copartisan
+6 11.968538  0.73950769 0.4942519 -0.2310787 1.7100941 -0.0788485898480006     Copartisan
+
+>>> Predicted values at maximum fiscal capacity <<<
+Non-copartisan prediction (max): 0.745 
+Copartisan prediction (max):     0.74 
+Difference (non-copartisan - copartisan): 0.006 
+
+[05_main_analysis.R completed in 8.9 s]
+
+
+#########################################################################
+##   06_pca_diagnostics.R 
+#########################################################################
+
+[1] ">>> Bivariate correlations: PCA components vs. Log_Lag_R28_Abs <<<"
+
+--- Score_PC1 ---
+
+	Pearson's product-moment correlation
+
+data:  df_pca_check[[pc]] and df_pca_check$Log_Lag_R28_Abs
+t = 9.2969, df = 698, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2643403 0.3962958
+sample estimates:
+     cor 
+0.331941 
+
+
+--- Score_PC2 ---
+
+	Pearson's product-moment correlation
+
+data:  df_pca_check[[pc]] and df_pca_check$Log_Lag_R28_Abs
+t = 5.3951, df = 698, p-value = 9.387e-08
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.1278721 0.2701762
+sample estimates:
+      cor 
+0.2000791 
+
+
+--- Score_PC3 ---
+
+	Pearson's product-moment correlation
+
+data:  df_pca_check[[pc]] and df_pca_check$Log_Lag_R28_Abs
+t = 6.4655, df = 698, p-value = 1.898e-10
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.1665375 0.3064123
+sample estimates:
+      cor 
+0.2377068 
+
+[1] ">>> Regressions: each component ~ Fiscal Capacity + State/Year FE <<<"
+
+--- Coefficient on Log_Lag_R28_Abs, PC1 ---
+  Estimate Std. Error    t value   Pr(>|t|) 
+0.76357590 0.40171820 1.90077496 0.05777701 
+
+--- Coefficient on Log_Lag_R28_Abs, PC2 ---
+  Estimate Std. Error    t value   Pr(>|t|) 
+ 0.2231980  0.2673238  0.8349350  0.4040635 
+
+--- Coefficient on Log_Lag_R28_Abs, PC3 ---
+  Estimate Std. Error    t value   Pr(>|t|) 
+0.96160105 0.43288379 2.22138382 0.02667137 
+[1] ">>> Full model summary: PC1 ~ Fiscal Capacity + State/Year FE <<<"
+
+Call:
+lm(formula = Score_PC1 ~ Log_Lag_R28_Abs + Log_Poblacion + Dependencia_Federal + 
+    factor(ENTIDAD) + factor(ANIO), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.9653 -0.4041 -0.0545  0.3065  3.3410 
+
+Coefficients:
+                                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        19.702362   9.300903   2.118  0.03453 *  
+Log_Lag_R28_Abs                     0.763576   0.401718   1.901  0.05778 .  
+Log_Poblacion                      -1.939830   0.684951  -2.832  0.00477 ** 
+Dependencia_Federal                 0.062417   0.603283   0.103  0.91763    
+factor(ENTIDAD)Baja California      1.246073   0.701377   1.777  0.07610 .  
+factor(ENTIDAD)Baja California Sur -1.241575   0.484948  -2.560  0.01069 *  
+factor(ENTIDAD)Campeche            -0.920974   0.334768  -2.751  0.00611 ** 
+factor(ENTIDAD)Chiapas              2.224577   0.974917   2.282  0.02283 *  
+factor(ENTIDAD)Chihuahua            1.764788   0.738688   2.389  0.01718 *  
+factor(ENTIDAD)Colima              -0.811821   0.468736  -1.732  0.08376 .  
+factor(ENTIDAD)Durango              0.514099   0.291359   1.764  0.07812 .  
+factor(ENTIDAD)Guanajuato           2.648452   1.043993   2.537  0.01142 *  
+factor(ENTIDAD)Guerrero             1.760566   0.713371   2.468  0.01385 *  
+factor(ENTIDAD)Hidalgo              1.704635   0.572692   2.977  0.00302 ** 
+factor(ENTIDAD)Jalisco              3.079942   1.269303   2.426  0.01552 *  
+factor(ENTIDAD)Mexico               3.516970   1.751523   2.008  0.04507 *  
+factor(ENTIDAD)Morelos              0.802053   0.329610   2.433  0.01523 *  
+factor(ENTIDAD)Nayarit             -0.457525   0.220481  -2.075  0.03837 *  
+factor(ENTIDAD)Nuevo Leon           1.550218   0.982243   1.578  0.11500    
+factor(ENTIDAD)Oaxaca               1.932993   0.795467   2.430  0.01537 *  
+factor(ENTIDAD)Puebla               2.293898   1.092104   2.100  0.03608 *  
+factor(ENTIDAD)Queretaro            0.168167   0.372926   0.451  0.65218    
+factor(ENTIDAD)Quintana Roo        -0.024109   0.241232  -0.100  0.92042    
+factor(ENTIDAD)San Luis Potosi      0.667042   0.552493   1.207  0.22775    
+factor(ENTIDAD)Sinaloa              0.937504   0.613081   1.529  0.12671    
+factor(ENTIDAD)Sonora               0.765504   0.598972   1.278  0.20170    
+factor(ENTIDAD)Tabasco              0.094707   0.583035   0.162  0.87101    
+factor(ENTIDAD)Tamaulipas           1.399844   0.703513   1.990  0.04704 *  
+factor(ENTIDAD)Tlaxcala            -0.214737   0.211374  -1.016  0.31005    
+factor(ENTIDAD)Yucatan              0.307473   0.399352   0.770  0.44162    
+factor(ENTIDAD)Zacatecas            0.104745   0.250065   0.419  0.67545    
+factor(ANIO)2001                   -0.085249   0.204211  -0.417  0.67649    
+factor(ANIO)2002                   -0.082815   0.208688  -0.397  0.69162    
+factor(ANIO)2003                   -0.146958   0.208447  -0.705  0.48106    
+factor(ANIO)2004                    0.020571   0.221284   0.093  0.92596    
+factor(ANIO)2005                   -0.077041   0.227442  -0.339  0.73493    
+factor(ANIO)2006                    0.005129   0.245719   0.021  0.98335    
+factor(ANIO)2007                    0.285479   0.273443   1.044  0.29687    
+factor(ANIO)2008                    0.312218   0.272492   1.146  0.25231    
+factor(ANIO)2009                    0.174591   0.323443   0.540  0.58953    
+factor(ANIO)2010                    0.581379   0.293042   1.984  0.04769 *  
+factor(ANIO)2011                    0.806492   0.311857   2.586  0.00993 ** 
+factor(ANIO)2012                    0.840765   0.331885   2.533  0.01154 *  
+factor(ANIO)2013                    0.859244   0.334352   2.570  0.01040 *  
+factor(ANIO)2014                    0.644965   0.345728   1.866  0.06256 .  
+factor(ANIO)2015                    0.621969   0.358422   1.735  0.08317 .  
+factor(ANIO)2016                    0.209318   0.371934   0.563  0.57378    
+factor(ANIO)2017                    0.375873   0.395726   0.950  0.34255    
+factor(ANIO)2018                    0.169248   0.408813   0.414  0.67901    
+factor(ANIO)2019                    0.318328   0.426905   0.746  0.45614    
+factor(ANIO)2020                    1.976834   0.433981   4.555 6.26e-06 ***
+factor(ANIO)2021                    1.711233   0.412928   4.144 3.87e-05 ***
+factor(ANIO)2022                    0.476256   0.416636   1.143  0.25342    
+factor(ANIO)2023                    0.224743   0.439987   0.511  0.60967    
+factor(ANIO)2024                    0.150173   0.451881   0.332  0.73975    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7311 on 645 degrees of freedom
+Multiple R-squared:  0.4441,	Adjusted R-squared:  0.3975 
+F-statistic: 9.542 on 54 and 645 DF,  p-value: < 2.2e-16
+
+[1] ">>> Full model summary: PC2 ~ Fiscal Capacity + State/Year FE <<<"
+
+Call:
+lm(formula = Score_PC2 ~ Log_Lag_R28_Abs + Log_Poblacion + Dependencia_Federal + 
+    factor(ENTIDAD) + factor(ANIO), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.7815 -0.1503 -0.0038  0.1092  6.3699 
+
+Coefficients:
+                                     Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                         3.6984023  6.1892967   0.598  0.55035   
+Log_Lag_R28_Abs                     0.2231980  0.2673238   0.835  0.40406   
+Log_Poblacion                      -0.3801767  0.4558013  -0.834  0.40454   
+Dependencia_Federal                -0.5726058  0.4014556  -1.426  0.15426   
+factor(ENTIDAD)Baja California      0.0458916  0.4667323   0.098  0.92170   
+factor(ENTIDAD)Baja California Sur -0.3529770  0.3227089  -1.094  0.27445   
+factor(ENTIDAD)Campeche            -0.3161767  0.2227715  -1.419  0.15630   
+factor(ENTIDAD)Chiapas              0.2694496  0.6487596   0.415  0.67804   
+factor(ENTIDAD)Chihuahua            0.5193927  0.4915610   1.057  0.29108   
+factor(ENTIDAD)Colima              -0.1237007  0.3119206  -0.397  0.69181   
+factor(ENTIDAD)Durango              0.0861386  0.1938850   0.444  0.65699   
+factor(ENTIDAD)Guanajuato           0.4402931  0.6947265   0.634  0.52646   
+factor(ENTIDAD)Guerrero             0.2276992  0.4747136   0.480  0.63163   
+factor(ENTIDAD)Hidalgo              0.2232239  0.3810984   0.586  0.55826   
+factor(ENTIDAD)Jalisco              0.8040494  0.8446591   0.952  0.34149   
+factor(ENTIDAD)Mexico               0.3511205  1.1655528   0.301  0.76332   
+factor(ENTIDAD)Morelos              0.0393623  0.2193396   0.179  0.85763   
+factor(ENTIDAD)Nayarit             -0.2104268  0.1467191  -1.434  0.15200   
+factor(ENTIDAD)Nuevo Leon           0.0997474  0.6536345   0.153  0.87876   
+factor(ENTIDAD)Oaxaca               0.2300613  0.5293447   0.435  0.66399   
+factor(ENTIDAD)Puebla               0.2557575  0.7267419   0.352  0.72501   
+factor(ENTIDAD)Queretaro           -0.1370920  0.2481642  -0.552  0.58085   
+factor(ENTIDAD)Quintana Roo        -0.2303810  0.1605283  -1.435  0.15173   
+factor(ENTIDAD)San Luis Potosi     -0.0314896  0.3676573  -0.086  0.93177   
+factor(ENTIDAD)Sinaloa              0.0144749  0.4079755   0.035  0.97171   
+factor(ENTIDAD)Sonora              -0.1138358  0.3985869  -0.286  0.77528   
+factor(ENTIDAD)Tabasco             -0.1671521  0.3879810  -0.431  0.66674   
+factor(ENTIDAD)Tamaulipas           0.1916160  0.4681533   0.409  0.68245   
+factor(ENTIDAD)Tlaxcala            -0.1564634  0.1406592  -1.112  0.26640   
+factor(ENTIDAD)Yucatan             -0.1015046  0.2657490  -0.382  0.70262   
+factor(ENTIDAD)Zacatecas           -0.1057506  0.1664061  -0.635  0.52533   
+factor(ANIO)2001                   -0.0303462  0.1358927  -0.223  0.82336   
+factor(ANIO)2002                   -0.0336356  0.1388715  -0.242  0.80870   
+factor(ANIO)2003                    0.2091409  0.1387116   1.508  0.13211   
+factor(ANIO)2004                   -0.0206795  0.1472536  -0.140  0.88836   
+factor(ANIO)2005                   -0.0456582  0.1513512  -0.302  0.76300   
+factor(ANIO)2006                   -0.0420255  0.1635140  -0.257  0.79725   
+factor(ANIO)2007                   -0.0003089  0.1819632  -0.002  0.99865   
+factor(ANIO)2008                    0.0237297  0.1813302   0.131  0.89592   
+factor(ANIO)2009                    0.2314518  0.2152352   1.075  0.28262   
+factor(ANIO)2010                    0.0643605  0.1950050   0.330  0.74147   
+factor(ANIO)2011                    0.1053937  0.2075259   0.508  0.61173   
+factor(ANIO)2012                    0.1180551  0.2208531   0.535  0.59315   
+factor(ANIO)2013                    0.1207078  0.2224950   0.543  0.58765   
+factor(ANIO)2014                    0.0701075  0.2300650   0.305  0.76067   
+factor(ANIO)2015                    0.0687403  0.2385125   0.288  0.77328   
+factor(ANIO)2016                   -0.0298244  0.2475039  -0.121  0.90412   
+factor(ANIO)2017                   -0.0159488  0.2633360  -0.061  0.95172   
+factor(ANIO)2018                   -0.0629185  0.2720454  -0.231  0.81717   
+factor(ANIO)2019                   -0.0180925  0.2840846  -0.064  0.94924   
+factor(ANIO)2020                    0.7678810  0.2887930   2.659  0.00803 **
+factor(ANIO)2021                    0.7126040  0.2747837   2.593  0.00972 **
+factor(ANIO)2022                    0.0196702  0.2772508   0.071  0.94346   
+factor(ANIO)2023                   -0.0510256  0.2927901  -0.174  0.86171   
+factor(ANIO)2024                   -0.0791838  0.3007048  -0.263  0.79238   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4865 on 645 degrees of freedom
+Multiple R-squared:  0.2629,	Adjusted R-squared:  0.2012 
+F-statistic:  4.26 on 54 and 645 DF,  p-value: < 2.2e-16
+
+[1] ">>> Full model summary: PC3 ~ Fiscal Capacity + State/Year FE <<<"
+
+Call:
+lm(formula = Score_PC3 ~ Log_Lag_R28_Abs + Log_Poblacion + Dependencia_Federal + 
+    factor(ENTIDAD) + factor(ANIO), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5301 -0.3888 -0.0103  0.3992  2.5459 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         5.40183   10.02247   0.539 0.590092    
+Log_Lag_R28_Abs                     0.96160    0.43288   2.221 0.026671 *  
+Log_Poblacion                      -1.11768    0.73809  -1.514 0.130442    
+Dependencia_Federal                 0.96611    0.65009   1.486 0.137736    
+factor(ENTIDAD)Baja California      1.02342    0.75579   1.354 0.176178    
+factor(ENTIDAD)Baja California Sur  0.11352    0.52257   0.217 0.828089    
+factor(ENTIDAD)Campeche             0.12852    0.36074   0.356 0.721749    
+factor(ENTIDAD)Chiapas              1.57678    1.05055   1.501 0.133868    
+factor(ENTIDAD)Chihuahua            1.02141    0.79600   1.283 0.199886    
+factor(ENTIDAD)Colima              -0.19946    0.50510  -0.395 0.693056    
+factor(ENTIDAD)Durango              0.23537    0.31396   0.750 0.453732    
+factor(ENTIDAD)Guanajuato           1.23061    1.12499   1.094 0.274414    
+factor(ENTIDAD)Guerrero             1.49648    0.76871   1.947 0.052001 .  
+factor(ENTIDAD)Hidalgo              1.69034    0.61712   2.739 0.006332 ** 
+factor(ENTIDAD)Jalisco              1.48358    1.36778   1.085 0.278476    
+factor(ENTIDAD)Mexico               1.82014    1.88741   0.964 0.335227    
+factor(ENTIDAD)Morelos              1.18031    0.35518   3.323 0.000941 ***
+factor(ENTIDAD)Nayarit              0.35847    0.23759   1.509 0.131835    
+factor(ENTIDAD)Nuevo Leon           0.27067    1.05845   0.256 0.798243    
+factor(ENTIDAD)Oaxaca               1.56861    0.85718   1.830 0.067717 .  
+factor(ENTIDAD)Puebla               1.47226    1.17683   1.251 0.211373    
+factor(ENTIDAD)Queretaro            0.42423    0.40186   1.056 0.291510    
+factor(ENTIDAD)Quintana Roo         0.69523    0.25995   2.675 0.007674 ** 
+factor(ENTIDAD)San Luis Potosi      0.61573    0.59536   1.034 0.301421    
+factor(ENTIDAD)Sinaloa              0.80797    0.66064   1.223 0.221773    
+factor(ENTIDAD)Sonora               0.78236    0.64544   1.212 0.225904    
+factor(ENTIDAD)Tabasco              0.05121    0.62827   0.082 0.935065    
+factor(ENTIDAD)Tamaulipas           0.46185    0.75809   0.609 0.542588    
+factor(ENTIDAD)Tlaxcala             0.53407    0.22777   2.345 0.019342 *  
+factor(ENTIDAD)Yucatan              0.51618    0.43033   1.199 0.230776    
+factor(ENTIDAD)Zacatecas            0.60961    0.26947   2.262 0.024010 *  
+factor(ANIO)2001                   -0.12492    0.22005  -0.568 0.570462    
+factor(ANIO)2002                   -0.14094    0.22488  -0.627 0.531050    
+factor(ANIO)2003                   -0.07288    0.22462  -0.324 0.745701    
+factor(ANIO)2004                   -0.06030    0.23845  -0.253 0.800454    
+factor(ANIO)2005                   -0.18505    0.24509  -0.755 0.450499    
+factor(ANIO)2006                   -0.11195    0.26478  -0.423 0.672595    
+factor(ANIO)2007                    0.18463    0.29466   0.627 0.531145    
+factor(ANIO)2008                    0.16534    0.29363   0.563 0.573566    
+factor(ANIO)2009                    0.13903    0.34854   0.399 0.690106    
+factor(ANIO)2010                    0.43619    0.31578   1.381 0.167656    
+factor(ANIO)2011                    0.66946    0.33605   1.992 0.046777 *  
+factor(ANIO)2012                    0.66993    0.35763   1.873 0.061487 .  
+factor(ANIO)2013                    0.67665    0.36029   1.878 0.060823 .  
+factor(ANIO)2014                    0.42292    0.37255   1.135 0.256710    
+factor(ANIO)2015                    0.36924    0.38623   0.956 0.339422    
+factor(ANIO)2016                   -0.09789    0.40079  -0.244 0.807119    
+factor(ANIO)2017                    0.09197    0.42643   0.216 0.829305    
+factor(ANIO)2018                   -0.15609    0.44053  -0.354 0.723217    
+factor(ANIO)2019                   -0.03446    0.46002  -0.075 0.940308    
+factor(ANIO)2020                   -0.84421    0.46765  -1.805 0.071507 .  
+factor(ANIO)2021                   -1.12857    0.44496  -2.536 0.011437 *  
+factor(ANIO)2022                    0.13002    0.44896   0.290 0.772213    
+factor(ANIO)2023                   -0.14021    0.47412  -0.296 0.767542    
+factor(ANIO)2024                   -0.21230    0.48694  -0.436 0.662996    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7878 on 645 degrees of freedom
+Multiple R-squared:  0.3637,	Adjusted R-squared:  0.3104 
+F-statistic: 6.827 on 54 and 645 DF,  p-value: < 2.2e-16
+
+[1] ">>> Mean component scores by fiscal capacity tercile <<<"
+# A tibble: 3 × 5
+  Fiscal_Tercile mean_PC1 mean_PC2 mean_PC3     n
+           <int>    <dbl>    <dbl>    <dbl> <int>
+1              1 -0.283    -0.168   -0.258    234
+2              2 -0.00869  -0.0705   0.0548   233
+3              3  0.393     0.0677   0.215    233
+[1] ">>> F-tests: does mean component score differ across fiscal capacity terciles? <<<"
+
+--- PC1 ---
+
+Call:
+lm(formula = Score_PC1 ~ factor(Fiscal_Tercile), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.2089 -0.4692 -0.1944  0.1986  5.2364 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             -0.28345    0.05891  -4.811 1.84e-06 ***
+factor(Fiscal_Tercile)2  0.27477    0.08341   3.294  0.00104 ** 
+factor(Fiscal_Tercile)3  0.67651    0.08341   8.111 2.26e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9012 on 697 degrees of freedom
+Multiple R-squared:  0.08715,	Adjusted R-squared:  0.08453 
+F-statistic: 33.27 on 2 and 697 DF,  p-value: 1.583e-14
+
+
+--- PC2 ---
+
+Call:
+lm(formula = Score_PC2 ~ factor(Fiscal_Tercile), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.3003 -0.1621 -0.0645 -0.0174  7.0125 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             -0.16814    0.03507  -4.795 1.99e-06 ***
+factor(Fiscal_Tercile)2  0.09768    0.04964   1.968   0.0495 *  
+factor(Fiscal_Tercile)3  0.23583    0.04964   4.750 2.47e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5364 on 697 degrees of freedom
+Multiple R-squared:  0.03165,	Adjusted R-squared:  0.02887 
+F-statistic: 11.39 on 2 and 697 DF,  p-value: 1.355e-05
+
+
+--- PC3 ---
+
+Call:
+lm(formula = Score_PC3 ~ factor(Fiscal_Tercile), data = df_pca_check)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.0590 -0.4052 -0.0929  0.4179  2.9488 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             -0.25751    0.06076  -4.238 2.56e-05 ***
+factor(Fiscal_Tercile)2  0.31235    0.08602   3.631 0.000303 ***
+factor(Fiscal_Tercile)3  0.47202    0.08602   5.487 5.73e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9295 on 697 degrees of freedom
+Multiple R-squared:  0.04281,	Adjusted R-squared:  0.04006 
+F-statistic: 15.58 on 2 and 697 DF,  p-value: 2.391e-07
+
+[1] "Renormalized weights (PC2+PC3 only): PC2: 0.512 | PC3: 0.488"
+[1] "Correlation, full 3-component ICI vs. PC2+PC3-only index: 0.8149"
+[1] ">>> TABLE 1 REPLICATION: PC2+PC3 Index Only (PC1 Dropped) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:30
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Main Specification with PC2+PC3 Index (PC1 Dropped)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Indice\_Conflictividad\_23PC} \\ 
+ & Change (t-1) & Level (t-1) & Full (t-1) & Interaction (t-1) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Lag\_Cambio\_R28 & $-$0.021 &  & $-$0.096$^{**}$ & 0.560 \\ 
+  & (0.033) &  & (0.047) & (0.618) \\ 
+  Lag\_Cambio\_R33 & 0.00000$^{***}$ &  & 0.00000$^{***}$ & 0.037 \\ 
+  & (0.00000) &  & (0.00000) & (0.107) \\ 
+  Lag\_Cambio\_Conv & $-$0.00000 &  & $-$0.00001$^{**}$ & 0.0001 \\ 
+  & (0.00000) &  & (0.00000) & (0.0001) \\ 
+  Log\_Lag\_R28\_Abs &  & 0.124$^{***}$ & 0.156$^{***}$ & 0.157$^{***}$ \\ 
+  &  & (0.041) & (0.054) & (0.053) \\ 
+  Log\_Lag\_R33\_Abs &  & $-$0.005$^{*}$ & $-$0.004 & $-$0.008 \\ 
+  &  & (0.003) & (0.003) & (0.011) \\ 
+  Log\_Lag\_Conv\_Abs &  & 0.002 & 0.002 & 0.002 \\ 
+  &  & (0.002) & (0.002) & (0.002) \\ 
+  Log\_Poblacion & $-$0.058 & $-$0.106 & $-$0.118$^{*}$ & $-$0.108 \\ 
+  & (0.070) & (0.068) & (0.068) & (0.070) \\ 
+  Aligned1 & $-$0.0004 & $-$0.001 & $-$0.001 & $-$0.001 \\ 
+  & (0.005) & (0.005) & (0.004) & (0.004) \\ 
+  factor(Governor\_Party)MC & 0.032$^{*}$ & 0.026 & 0.024 & 0.025 \\ 
+  & (0.018) & (0.018) & (0.019) & (0.019) \\ 
+  factor(Governor\_Party)MOR & 0.048$^{**}$ & 0.056$^{***}$ & 0.056$^{***}$ & 0.058$^{***}$ \\ 
+  & (0.021) & (0.021) & (0.021) & (0.021) \\ 
+  factor(Governor\_Party)PAN & 0.034$^{***}$ & 0.032$^{***}$ & 0.031$^{***}$ & 0.033$^{***}$ \\ 
+  & (0.011) & (0.011) & (0.011) & (0.012) \\ 
+  factor(Governor\_Party)PES & 0.056$^{***}$ & 0.072$^{***}$ & 0.076$^{***}$ & 0.077$^{***}$ \\ 
+  & (0.017) & (0.015) & (0.015) & (0.015) \\ 
+  factor(Governor\_Party)PRD & 0.042$^{***}$ & 0.046$^{***}$ & 0.046$^{***}$ & 0.046$^{***}$ \\ 
+  & (0.012) & (0.011) & (0.011) & (0.011) \\ 
+  factor(Governor\_Party)PRI & 0.026$^{***}$ & 0.022$^{***}$ & 0.020$^{***}$ & 0.021$^{***}$ \\ 
+  & (0.007) & (0.006) & (0.007) & (0.006) \\ 
+  factor(Governor\_Party)PVEM & 0.075$^{***}$ & 0.073$^{***}$ & 0.069$^{**}$ & 0.070$^{**}$ \\ 
+  & (0.026) & (0.028) & (0.029) & (0.029) \\ 
+  Dependencia\_Federal & 0.038 & 0.039 & 0.038 & 0.038 \\ 
+  & (0.042) & (0.043) & (0.046) & (0.047) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.014$^{**}$ & $-$0.016$^{***}$ & $-$0.015$^{***}$ & $-$0.015$^{***}$ \\ 
+  & (0.006) & (0.006) & (0.006) & (0.006) \\ 
+  Log\_Lag\_R28\_Abs:Lag\_Cambio\_R28 &  &  &  & $-$0.068 \\ 
+  &  &  &  & (0.064) \\ 
+  Log\_Lag\_R33\_Abs:Lag\_Cambio\_R33 &  &  &  & $-$0.004 \\ 
+  &  &  &  & (0.011) \\ 
+  Log\_Lag\_Conv\_Abs:Lag\_Cambio\_Conv &  &  &  & $-$0.00001 \\ 
+  &  &  &  & (0.00001) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.022 & 0.039 & 0.047 & 0.051 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> Side-by-side: Main ICI (3 components) vs. PC2+PC3-only, Level Model <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:30
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: ICI (3 Components) vs. PC2+PC3-Only Index, Level Model} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & Indice\_Conflictividad\_W & Indice\_Conflictividad\_23PC \\ 
+ & ICI (3 components) & ICI (PC2+PC3 only) \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.124$^{***}$ \\ 
+  & (0.052) & (0.041) \\ 
+  Log\_Lag\_R33\_Abs & $-$0.011$^{**}$ & $-$0.005$^{*}$ \\ 
+  & (0.006) & (0.003) \\ 
+  Log\_Lag\_Conv\_Abs & 0.003 & 0.002 \\ 
+  & (0.003) & (0.002) \\ 
+  Log\_Poblacion & $-$0.342$^{***}$ & $-$0.106 \\ 
+  & (0.120) & (0.068) \\ 
+  Aligned1 & $-$0.005 & $-$0.001 \\ 
+  & (0.011) & (0.005) \\ 
+  factor(Governor\_Party)MC & 0.060$^{**}$ & 0.026 \\ 
+  & (0.025) & (0.018) \\ 
+  factor(Governor\_Party)MOR & $-$0.023 & 0.056$^{***}$ \\ 
+  & (0.044) & (0.021) \\ 
+  factor(Governor\_Party)PAN & 0.001 & 0.032$^{***}$ \\ 
+  & (0.017) & (0.011) \\ 
+  factor(Governor\_Party)PES & 0.001 & 0.072$^{***}$ \\ 
+  & (0.030) & (0.015) \\ 
+  factor(Governor\_Party)PRD & 0.016 & 0.046$^{***}$ \\ 
+  & (0.021) & (0.011) \\ 
+  factor(Governor\_Party)PRI & $-$0.044$^{***}$ & 0.022$^{***}$ \\ 
+  & (0.011) & (0.006) \\ 
+  factor(Governor\_Party)PVEM & 0.049 & 0.073$^{***}$ \\ 
+  & (0.085) & (0.028) \\ 
+  Dependencia\_Federal & 0.104 & 0.039 \\ 
+  & (0.080) & (0.043) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.035$^{***}$ & $-$0.016$^{***}$ \\ 
+  & (0.010) & (0.006) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.039 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] "Renormalized weights (PC1+PC3 only): PC1: 0.53 | PC3: 0.47"
+[1] "Correlation, full 3-component ICI vs. PC1+PC3-only index: 0.9493"
+[1] ">>> Level Model with PC1+PC3 Index (PC2 Dropped) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:31
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Main Specification with PC1+PC3 Index (PC2 Dropped)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Indice\_Conflictividad\_13PC \\ 
+ & Level (t-1), PC1+PC3 only \\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.282$^{***}$ \\ 
+  & (0.075) \\ 
+  Log\_Lag\_R33\_Abs & $-$0.012 \\ 
+  & (0.008) \\ 
+  Log\_Lag\_Conv\_Abs & 0.002 \\ 
+  & (0.004) \\ 
+  Log\_Poblacion & $-$0.436$^{***}$ \\ 
+  & (0.164) \\ 
+  Aligned1 & $-$0.004 \\ 
+  & (0.013) \\ 
+  factor(Governor\_Party)MC & 0.095$^{***}$ \\ 
+  & (0.035) \\ 
+  factor(Governor\_Party)MOR & 0.028 \\ 
+  & (0.059) \\ 
+  factor(Governor\_Party)PAN & 0.031 \\ 
+  & (0.025) \\ 
+  factor(Governor\_Party)PES & 0.058 \\ 
+  & (0.043) \\ 
+  factor(Governor\_Party)PRD & 0.060$^{**}$ \\ 
+  & (0.029) \\ 
+  factor(Governor\_Party)PRI & $-$0.014 \\ 
+  & (0.016) \\ 
+  factor(Governor\_Party)PVEM & 0.111 \\ 
+  & (0.102) \\ 
+  Dependencia\_Federal & 0.205$^{**}$ \\ 
+  & (0.091) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.036$^{***}$ \\ 
+  & (0.011) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 \\ 
+R$^{2}$ & 0.067 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] "Renormalized weights (PC1+PC2 only): PC1: 0.518 | PC2: 0.482"
+[1] "Correlation, full 3-component ICI vs. PC1+PC2-only index: 0.833"
+[1] ">>> Level Model with PC1+PC2 Index (PC3 Dropped) <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:31
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: Main Specification with PC1+PC2 Index (PC3 Dropped)} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Indice\_Conflictividad\_12PC \\ 
+ & Level (t-1), PC1+PC2 only \\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.079 \\ 
+  & (0.051) \\ 
+  Log\_Lag\_R33\_Abs & $-$0.009$^{***}$ \\ 
+  & (0.003) \\ 
+  Log\_Lag\_Conv\_Abs & 0.002 \\ 
+  & (0.002) \\ 
+  Log\_Poblacion & $-$0.270$^{***}$ \\ 
+  & (0.099) \\ 
+  Aligned1 & $-$0.006 \\ 
+  & (0.009) \\ 
+  factor(Governor\_Party)MC & 0.023 \\ 
+  & (0.026) \\ 
+  factor(Governor\_Party)MOR & $-$0.146$^{***}$ \\ 
+  & (0.030) \\ 
+  factor(Governor\_Party)PAN & $-$0.065$^{***}$ \\ 
+  & (0.016) \\ 
+  factor(Governor\_Party)PES & $-$0.138$^{***}$ \\ 
+  & (0.020) \\ 
+  factor(Governor\_Party)PRD & $-$0.072$^{***}$ \\ 
+  & (0.017) \\ 
+  factor(Governor\_Party)PRI & $-$0.113$^{***}$ \\ 
+  & (0.012) \\ 
+  factor(Governor\_Party)PVEM & $-$0.075 \\ 
+  & (0.073) \\ 
+  Dependencia\_Federal & 0.018 \\ 
+  & (0.090) \\ 
+  factor(Eleccion\_Estatal)1 & $-$0.027$^{**}$ \\ 
+  & (0.013) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 \\ 
+R$^{2}$ & 0.081 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> Full comparison: baseline vs. all three 2-component indices <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:31
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: ICI Excluding Individual Components} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & Indice\_Conflictividad\_W & Indice\_Conflictividad\_12PC & Indice\_Conflictividad\_13PC & Indice\_Conflictividad\_23PC \\ 
+ & Baseline (3 comp.) & PC1+PC2 (PC3 dropped) & PC1+PC3 (PC2 dropped) & PC2+PC3 (PC1 dropped) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.079 & 0.282$^{***}$ & 0.124$^{***}$ \\ 
+  & (0.052) & (0.051) & (0.075) & (0.041) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.081 & 0.067 & 0.039 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+[1] ">>> Full comparison: baseline (3 components) vs. all three 2-component indices <<<"
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Sep 28, 2026 - 17:06:31
+\begin{table}[!htbp] \centering 
+  \caption{Robustness: ICI Excluding Individual Components} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & Indice\_Conflictividad\_W & Indice\_Conflictividad\_12PC & Indice\_Conflictividad\_13PC & Indice\_Conflictividad\_23PC \\ 
+ & Baseline (3 comp.) & PC1+PC2 (PC3 dropped) & PC1+PC3 (PC2 dropped) & PC2+PC3 (PC1 dropped) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Log\_Lag\_R28\_Abs & 0.211$^{***}$ & 0.079 & 0.282$^{***}$ & 0.124$^{***}$ \\ 
+  & (0.052) & (0.051) & (0.075) & (0.041) \\ 
+ \hline \\[-1.8ex] 
+Observations & 700 & 700 & 700 & 700 \\ 
+R$^{2}$ & 0.071 & 0.081 & 0.067 & 0.039 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+[06_pca_diagnostics.R completed in 2.9 s]
+
+
+#########################################################################
+##   07_export_artifacts.R 
+#########################################################################
+
+[1] "--- 7. Exporting replication artifacts ---"
+# A tibble: 3 × 3
+  Variable                Center_Mean Scale_SD
+  <chr>                         <dbl>    <dbl>
+1 log_Rhetoric                 0.638     1.04 
+2 n_conflicts                  0.0116    0.136
+3 Rupture_Alliance_Period      0.0231    0.150
+                 Variable    PC1_raw   PC2_raw    PC3_raw PC1_oriented PC2_oriented PC3_oriented
+1            log_Rhetoric  0.6718216 0.1607901  0.7230506    0.6718216    0.1607901    0.7230506
+2             n_conflicts -0.3716920 0.9175371  0.1413177   -0.3716920    0.9175371    0.1413177
+3 Rupture_Alliance_Period  0.6407033 0.3636925 -0.6761857    0.6407033    0.3636925   -0.6761857
+
+Sign orientation applied (PC1, PC2, PC3): 1 1 1 
+
+# A tibble: 3 × 6
+  Component Eigenvalue Variance_Share Variance_Percent Cumulative_Percent ICI_Weight
+  <chr>          <dbl>          <dbl>            <dbl>              <dbl>      <dbl>
+1 PC1            1.06           0.355             35.5               35.5      0.355
+2 PC2            0.991          0.330             33.0               68.5      0.330
+3 PC3            0.945          0.315             31.5              100        0.315
+                 Variable      PC1       PC2      PC3
+1            log_Rhetoric 45.13443  2.585346 52.28022
+2             n_conflicts 13.81550 84.187433  1.99707
+3 Rupture_Alliance_Period 41.05007 13.227221 45.72271
+
+ici_state_year_scores.csv: 864 rows, 32 states, 1998-2024, ICI range [0.000, 1.000]
+                            Quantity Published Reproduced Tolerance Match
+         Table 1, Level: coefficient     0.211      0.211     0.001    OK
+        Table 1, Level: clustered SE     0.052      0.052     0.001    OK
+                          Table 1: N   700.000    700.000     0.000    OK
+           Table 1, Level: R-squared     0.071      0.071     0.001    OK
+          PC1 variance explained (%)    35.500     35.500     0.050    OK
+          PC2 variance explained (%)    33.000     33.000     0.050    OK
+          PC3 variance explained (%)    31.500     31.500     0.050    OK
+    Rhetoric contribution to PC1 (%)    45.100     45.100     0.050    OK
+     Rupture contribution to PC1 (%)    41.100     41.100     0.050    OK
+  Litigation contribution to PC2 (%)    84.200     84.200     0.050    OK
+           Robustness Value, q=1 (%)    13.470     13.470     0.010    OK
+ Robustness Value, q=1 alpha=.05 (%)     6.480      6.480     0.010    OK
+
+>>> VERIFICATION PASSED: all reported figures reproduce. <<<
+[1] "--- Artifact export complete ---"
+
+[07_export_artifacts.R completed in 0.1 s]
+Warning message:
+There was 1 warning in `mutate()`.
+ℹ In argument: `Year = as.numeric(Year_Str)`.
+Caused by warning:
+! NAs introduced by coercion 
+
+
+=========================================================================
+Replication run finished in 0.3 minutes.
+Verification summary: output/VERIFICATION.txt
+Full transcript:      output/run_all_log.txt
+=========================================================================

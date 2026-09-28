@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite both the article and this repository."
+type: software
+title: "Replication package: Severe Safeguards and Fiscal Capacity"
+abstract: >-
+  Data and code reproducing every table and figure in "Severe Safeguards and
+  Fiscal Capacity: The Political Economy of Intergovernmental Retaliation",
+  from raw INEGI, CONAPO and Banco de México sources through to the reported
+  estimates.
+authors:
+  - family-names: "Mendoza Gómez"
+    given-names: "Joel"
+    email: "jm285@rice.edu"
+    affiliation: "Rice University"
+license: MIT
+repository-code: "https://github.com/joelmendozagomez/severe-safeguards-replication"
+keywords:
+  - federalism
+  - fiscal capacity
+  - intergovernmental relations
+  - Mexico
+  - replication
+preferred-citation:
+  type: article
+  title: "Severe Safeguards and Fiscal Capacity: The Political Economy of Intergovernmental Retaliation"
+  authors:
+    - family-names: "Mendoza Gómez"
+      given-names: "Joel"
+  journal: "Publius: The Journal of Federalism"
+  year: 2026

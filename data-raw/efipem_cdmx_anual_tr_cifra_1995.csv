@@ -1,0 +1,94 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1995,09,09,Egresos,Tema,Total de egresos,17991147100,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Servicios personales,6236930600,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Remuneraciones al personal,6236930600,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,340620700,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Educación,47238200,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Salud,388302400,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,378461000,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,24610100,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,28103500,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,2456686300,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,558194400,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Registros Públicos,9123800,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Dependencias diversas,2005590200,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Materiales y suministros,1430024500,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Materiales y suministros diversos,1430024500,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Servicios generales,3800708400,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Otros servicios generales,3800708400,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Otros servicios generales,3800708400,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",2666068100,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,2666068100,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,2666068100,Cifras Definitivas
+1995,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,2666068100,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,"Bienes muebles, inmuebles e intangibles",401226100,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Mobiliario y equipo de administración,401226100,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Otros mobiliarios y equipos de administración,401226100,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Inversión pública,2132881700,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,2132881700,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,2132881700,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Inversiones financieras y otras provisiones,3000000,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Compra de títulos y valores,3000000,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Otros valores,3000000,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,682342600,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,682342600,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Diversas Alcaldías,682342600,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Deuda pública,630168200,Cifras Definitivas
+1995,09,09,Egresos,Concepto,Amortización de la deuda pública,630168200,Cifras Definitivas
+1995,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,630168200,Cifras Definitivas
+1995,09,09,Egresos,Capítulo,Disponibilidad final,7796900,Cifras Definitivas
+1995,09,09,Ingresos,Tema,Total de ingresos,17991147100,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Impuestos,4187155400,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,1407732800,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,1407732800,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,2581438500,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Impuesto predial,1954450700,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,84573800,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Traslado de dominio de bienes inmuebles,542414000,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",197984100,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,197984100,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,164463300,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,164463300,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Derechos,1688757800,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",1543354900,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Registros,272348500,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Registro civil,20916500,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,251432000,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Licencias y permisos,63310700,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Empresas de transporte,4566700,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,58744000,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Inspecciones,36978400,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Sanidad,36978400,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,402196000,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,402196000,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Uso y suministro de agua potable,768521300,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Otros Derechos,145402900,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Productos,2297658900,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Productos de tipo corriente,801421400,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Intereses,793799700,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,7621700,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,7621700,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Productos de tipo capital,37223200,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,37223200,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,26731500,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,10491700,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Otros productos,1459014300,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Aprovechamientos,969945700,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,828573900,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Rezagos,507503300,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Multas,63243900,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Gastos de ejecución,257826700,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Otros aprovechamientos,141371800,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Participaciones federales,7591077100,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Fondos participables,6409686400,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,5896323100,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Fondo de Fomento Municipal,513363300,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Otras participaciones,1181390700,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Participaciones diversas,1181390700,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Aportaciones federales,76340600,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,76340600,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,76340600,Cifras Definitivas
+1995,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,76340600,Cifras Definitivas
+1995,09,09,Ingresos,Capítulo,Financiamiento,1015748300,Cifras Definitivas
+1995,09,09,Ingresos,Concepto,Empréstitos,1015748300,Cifras Definitivas
+1995,09,09,Ingresos,Partida Genérica,Empréstitos diversos,1015748300,Cifras Definitivas

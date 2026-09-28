@@ -1,0 +1,92 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1993,09,09,Egresos,Tema,Total de egresos,13914496300,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Servicios personales,4369563200,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Remuneraciones al personal,4369563200,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,236509000,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Educación,29751800,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Salud,270656100,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,293094000,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,6995500,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,27686500,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,1697058500,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,372706400,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Registros Públicos,7372400,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Dependencias diversas,1427733000,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Materiales y suministros,1030484000,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Materiales y suministros diversos,1030484000,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Servicios generales,2932676100,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Otros servicios generales,2932676100,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Otros servicios generales,2932676100,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",2668073300,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,2665073500,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,1852290200,Cifras Definitivas
+1993,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,1852290200,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Diversas transferencias,812783300,Cifras Definitivas
+1993,09,09,Egresos,Subpartida Genérica,Otras transferencias,812783300,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Ayudas sociales,2999800,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Ayudas sociales a personas,2999800,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Inversión pública,2355390500,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,2355390500,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,2355390500,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,395851600,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,395851600,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Diversas Alcaldías,395851600,Cifras Definitivas
+1993,09,09,Egresos,Capítulo,Deuda pública,162457600,Cifras Definitivas
+1993,09,09,Egresos,Concepto,Amortización de la deuda pública,162457600,Cifras Definitivas
+1993,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,162457600,Cifras Definitivas
+1993,09,09,Ingresos,Tema,Total de ingresos,13914496300,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Impuestos,3522883700,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,1192643800,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,1192643800,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,2092485800,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Impuesto predial,1432937100,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,77160700,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Traslado de dominio de bienes inmuebles,582388000,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",76393900,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,76393900,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Adicionales,161360200,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Impuestos adicionales diversos,161360200,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,131132400,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,131132400,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Derechos,1281195100,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",1093360200,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Registros,785964900,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Registro civil,10779700,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,775185200,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Licencias y permisos,1174200,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,1174200,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Inspecciones,26358300,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Sanidad,26358300,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,279862800,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,279862800,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Otros Derechos,187834900,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Productos,1910937300,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Productos de tipo corriente,468804300,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Intereses,449862700,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,18941600,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,18941600,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Productos de tipo capital,72812400,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,72812400,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,57680800,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,15131600,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Otros productos,1369320600,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Aprovechamientos,406645800,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,249914500,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Rezagos,175275000,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Multas,69829300,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Donaciones y aprovechamientos a favor del estado,256400,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Indemnizaciones a favor del estado,3766500,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Gastos de ejecución,787300,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Otros aprovechamientos,156731300,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Participaciones federales,6263654700,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Fondos participables,5349152300,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,5349152300,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Otras participaciones,914502400,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Participaciones diversas,914502400,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Aportaciones federales,1740900,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,1740900,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,1740900,Cifras Definitivas
+1993,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,1740900,Cifras Definitivas
+1993,09,09,Ingresos,Capítulo,Financiamiento,396306400,Cifras Definitivas
+1993,09,09,Ingresos,Concepto,Empréstitos,396306400,Cifras Definitivas
+1993,09,09,Ingresos,Partida Genérica,Empréstitos diversos,396306400,Cifras Definitivas

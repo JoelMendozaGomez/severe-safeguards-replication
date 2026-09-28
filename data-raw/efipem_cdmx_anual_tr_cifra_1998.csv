@@ -1,0 +1,152 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1998,09,09,Egresos,Tema,Total de egresos,41798624700,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Servicios personales,7509383500,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Remuneraciones al personal,7509383500,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Jefatura de Gobierno,42209200,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Gobierno,500478900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,682675600,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Educación,241899700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Salud,1016835100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,1003056900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,100299200,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,2380941000,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,1245919400,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Contraloría General,29841000,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Dependencias diversas,265227500,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Materiales y suministros,1582184000,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Materiales y suministros diversos,1582184000,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Servicios generales,4966291000,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Otros servicios generales,4966291000,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Otros servicios generales,4966291000,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",7381443500,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,7378442700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,A poderes,1490398600,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Legislativo,406051000,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Judicial,1084347600,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,5352442100,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de salud,19225200,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,90729100,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de seguridad social,177878200,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de cultura y deporte,18254900,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de seguridad pública,3675271500,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector agropecuario,8973900,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas ecológicos,489388500,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Instituciones y programas de infraestructura,872720800,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Órganos autónomos y electorales,206645300,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Comisión de derechos humanos,66857500,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Diversos órganos autónomos y electorales,139787800,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Diversas transferencias,328956700,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Otras transferencias,328956700,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Subsidios y subvenciones,3000800,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Subsidios a la distribución,3000800,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,"Bienes muebles, inmuebles e intangibles",1444576000,Cifras Definitivas
+1998,09,09,Egresos,Concepto,"Bienes muebles, inmuebles e intangibles diversos",1444576000,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Inversión pública,1853291600,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,1853291600,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Edificación no habitacional,536700,Cifras Definitivas
+1998,09,09,Egresos,Subpartida Genérica,Hospitales,536700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,"Construcción de obras para el abastecimiento de agua, petróleo, gas, electricidad y telecomunicaciones",570150700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,División de terrenos y construcción de obras de urbanización,694431300,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,588172900,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,11377441000,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,6887542500,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Azcapotzalco,355743600,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Coyoacán,414985600,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Cuajimalpa de Morelos,213608900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Gustavo A. Madero,730315100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Iztacalco,309265300,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Iztapalapa,810627000,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Magdalena Contreras,224609100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Milpa Alta,194269900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Álvaro Obregón,452980700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Tláhuac,251549900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Tlalpan,399418400,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Xochimilco,299686900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Benito Juárez,394073700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Cuauhtémoc,814069000,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Miguel Hidalgo,492660700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Venustiano Carranza,529678700,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Sector Paraestatal del Gobierno de la Ciudad de México,4489898500,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Instituto de Vivienda de la Ciudad de México,74006700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Fideicomiso de Recuperación Crediticia de la Ciudad de México FIDERE III,11830100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Fondo de Desarrollo Económico de la Ciudad de México,183814300,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Sistema para el Desarrollo Integral de la Familia,572942700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Sistema de Transporte Colectivo (Metro),1434095700,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Servicio de Transportes Eléctricos de la Ciudad de México,487965100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Caja de Previsión para Trabajadores a Lista de Raya de la Ciudad de México,10976100,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Servicios de Salud Pública de la Ciudad de México,897789500,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Diversas Entidades Paraestatales de la Ciudad de México,816478300,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Deuda pública,2018723900,Cifras Definitivas
+1998,09,09,Egresos,Concepto,Amortización de la deuda pública,2018723900,Cifras Definitivas
+1998,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,2018723900,Cifras Definitivas
+1998,09,09,Egresos,Capítulo,Disponibilidad final,3665290200,Cifras Definitivas
+1998,09,09,Ingresos,Tema,Total de ingresos,41798624700,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Impuestos,8077199400,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,3161819000,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,3161819000,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,4654774900,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto predial,3711137100,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,146406800,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Enajenación de bienes muebles y adquisición de vehículos,24269000,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Adquisición de bienes inmuebles,772962000,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",260605500,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto sobre hospedaje,54257500,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,115333700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,"Loterías, rifas, sorteos y juegos permitidos",91014300,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,173842100,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,173842100,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Derechos,6701982500,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",2883111900,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Registros,412826200,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Registro civil,54709100,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,358117100,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Licencias y permisos,78563200,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,78563200,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Inspecciones,52598300,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Sanidad,52598300,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,553251700,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,553251700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Uso y suministro de agua potable,1780359400,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Servicios de desarrollo urbano y obras públicas,5513100,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Urbanización,5513100,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Derechos por prestación de servicios,3614606200,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Mercados,12156700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Estacionamientos,17275900,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Seguridad pública,3581349000,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Diversos derechos por prestación de servicios,3824600,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Otros Derechos,204264400,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Productos,1585657200,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Productos de tipo corriente,1335317700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Arrendamientos,23880200,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Intereses,1235666200,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,75771300,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,75771300,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Productos de tipo capital,113700000,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,113700000,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,81576700,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,32123300,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Otros productos,136639500,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Aprovechamientos,1138520700,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,840019800,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Rezagos,519918200,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Multas,121676700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Gastos de ejecución,198424900,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Otros aprovechamientos,298500900,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Participaciones federales,15798162400,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Fondos participables,12715741900,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,11696530500,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Fondo de Fomento Municipal,1019211400,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Impuestos participables,3056915800,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto sobre Tenencia o Uso de Vehículos,2119393600,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto sobre Automóviles Nuevos,568989500,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Impuesto Especial sobre Producción y Servicios,368532700,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Otras participaciones,25504700,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Multas administrativas federales no fiscales,18209400,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Incentivos por administración de impuestos,7295300,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Aportaciones federales,2132910100,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Recursos federales reasignados,2132910100,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Recursos federales diversos,2132910100,Cifras Definitivas
+1998,09,09,Ingresos,Subpartida Genérica,Otros recursos federales,2132910100,Cifras Definitivas
+1998,09,09,Ingresos,Capítulo,Financiamiento,6190350300,Cifras Definitivas
+1998,09,09,Ingresos,Concepto,Empréstitos,6190350300,Cifras Definitivas
+1998,09,09,Ingresos,Partida Genérica,Empréstitos diversos,6190350300,Cifras Definitivas

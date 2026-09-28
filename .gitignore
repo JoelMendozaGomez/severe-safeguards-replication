@@ -1,0 +1,15 @@
+# R session artefacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Ruserdata
+Rplots.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# data/ and output/ ARE tracked on purpose: they let a reader inspect the
+# state-year index and the verification report without running the pipeline.
+# Both are regenerated in place by 00_run_all.R.

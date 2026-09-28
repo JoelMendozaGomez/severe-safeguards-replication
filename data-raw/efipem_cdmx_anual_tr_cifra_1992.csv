@@ -1,0 +1,91 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+1992,09,09,Egresos,Tema,Total de egresos,12251078000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Servicios personales,3681666000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Remuneraciones al personal,3681666000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,185091000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Educación,28218000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Salud,228023000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,310049000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,13463000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,19420000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,1350816000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,329385000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Registros Públicos,6215000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Dependencias diversas,1210986000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Materiales y suministros,972859000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Materiales y suministros diversos,972859000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Servicios generales,2545647000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Otros servicios generales,2545647000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Otros servicios generales,2545647000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",2210979000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,2210979000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,1573031000,Cifras Definitivas
+1992,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,2140000,Cifras Definitivas
+1992,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,1570891000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Diversas transferencias,637948000,Cifras Definitivas
+1992,09,09,Egresos,Subpartida Genérica,Otras transferencias,637948000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Inversión pública,2508149000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,2508149000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Diversas obras públicas en bienes de dominio público,2508149000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,250850000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,250850000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Diversas Alcaldías,250850000,Cifras Definitivas
+1992,09,09,Egresos,Capítulo,Deuda pública,80928000,Cifras Definitivas
+1992,09,09,Egresos,Concepto,Amortización de la deuda pública,80928000,Cifras Definitivas
+1992,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,80928000,Cifras Definitivas
+1992,09,09,Ingresos,Tema,Total de ingresos,12251078000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Impuestos,3047763000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,1018473000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,1018473000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,1789187000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Impuesto predial,1211195000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,26171000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Traslado de dominio de bienes inmuebles,551821000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",85370000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,85370000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Adicionales,154733000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Impuestos adicionales diversos,154733000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Contribuciones de Mejoras,266477000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Contribución de mejoras por obras públicas,266477000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Derechos,1105208000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",956831000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Registros,635202000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Registro civil,9867000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,625335000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Licencias y permisos,404000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,404000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Inspecciones,15861000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Sanidad,15861000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,305364000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Diversos servicios de vialidad y de transporte,305364000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Otros Derechos,148377000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Productos,1858456000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Productos de tipo corriente,595024000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Intereses,565357000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,29667000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,29667000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Productos de tipo capital,7143000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,7143000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,2269000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,4874000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Otros productos,1256289000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Aprovechamientos,323532000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,189043000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Rezagos,124532000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Multas,61573000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Donaciones y aprovechamientos a favor del estado,150000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Indemnizaciones a favor del estado,2477000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Gastos de ejecución,311000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Otros aprovechamientos,134489000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Participaciones federales,5500331000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Fondos participables,4772773000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,4772773000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Otras participaciones,727558000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Participaciones diversas,727558000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Aportaciones federales,2097000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,2097000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,2097000,Cifras Definitivas
+1992,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,2097000,Cifras Definitivas
+1992,09,09,Ingresos,Capítulo,Financiamiento,147214000,Cifras Definitivas
+1992,09,09,Ingresos,Concepto,Empréstitos,147214000,Cifras Definitivas
+1992,09,09,Ingresos,Partida Genérica,Empréstitos diversos,147214000,Cifras Definitivas

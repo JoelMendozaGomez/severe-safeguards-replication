@@ -1,0 +1,380 @@
+ANIO,CVEGEO,CVE_ENT,TEMA,CATEGORIA,DESCRIPCION_CATEGORIA,VALOR,ESTATUS
+2020,09,09,Egresos,Tema,Total de egresos,219374758023,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Servicios personales,32185289476,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Remuneraciones al personal,12904090981,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Jefatura de Gobierno,86642672,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Gobierno,1065899884,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Finanzas,829686356,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Educación,305930477,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Salud,3725647343,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Obras Públicas y Servicios,649400320,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Económico,55714382,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Turismo,16315217,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría del Medio Ambiente,447328699,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Desarrollo Social,598195054,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría del Trabajo y Previsión Social,84317785,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Secretaría de Seguridad Pública,4048397681,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Procuraduría General de Justicia,35386999,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Contraloría General,80793830,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Dependencias diversas,874434282,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Remuneraciones adicionales y especiales,7679268968,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Primas por años de servicios efectivos prestados,237373922,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Primas de vacaciones, dominical y gratificación de fin de año",1312826595,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Horas extraordinarias,226141205,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Compensaciones,5902927246,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Seguridad social,3122689384,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Aportaciones a fondos de vivienda,728296186,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Aportaciones para seguros,584094394,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otras cuotas de seguridad social y seguros,1810298804,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Otras prestaciones sociales y económicas,8092887981,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Cuotas para el fondo de ahorro y fondo de trabajo,805655553,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Indemnizaciones,149525056,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Prestaciones y haberes de retiro,520281075,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Apoyos a la capacitación de los servidores públicos,96861315,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otras prestaciones sociales y económicas,6520564982,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Pago de estímulos a servidores públicos,386352162,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Estímulos,386352162,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Materiales y suministros,5372514082,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Materiales de administración, emisión de documentos y artículos oficiales",191432769,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de oficina",56976542,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Materiales y útiles de impresión y reproducción,2687339,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Material estadístico y geográfico,4657,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Materiales, útiles y equipos menores de tecnologías de la información y comunicaciones",42500820,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Material impreso e información digital,11988178,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Material de limpieza,75992629,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Materiales y útiles de enseñanza,1282604,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Alimentos y utensilios,1083956737,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Productos alimenticios para personas,1031895895,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Productos alimenticios para animales,48215563,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Utensilios para el servicio de alimentación,3845279,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Herramientas, refacciones y accesorios menores",57629750,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Herramientas menores,7720233,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de edificios,685389,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Refacciones y accesorios menores de mobiliario y equipo de administración, educacional y recreativo",866960,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo de cómputo y tecnologías de la información,3624410,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo e instrumental médico y de laboratorio,37208538,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de equipo de transporte,6219857,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores de maquinaria y otros equipos,1046848,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Refacciones y accesorios menores otros bienes muebles,257515,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Materiales y artículos de construcción y de reparación,150738972,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Productos minerales no metálicos,89851509,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Cemento y productos de concreto,439330,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Cal, yeso y productos de yeso",349854,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Madera y productos de madera,467529,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Vidrio y productos de vidrio,114668,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Material eléctrico y electrónico,20097425,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Artículos metálicos para la construcción,5231588,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Materiales complementarios,9494749,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros materiales y artículos de construcción y reparación,24692320,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Productos químicos, farmacéuticos, laboratorio y materias primas de producción y comercialización",2492661873,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Productos químicos, farmacéuticos y de laboratorio",2491981979,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Productos químicos básicos,5044570,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Fertilizantes, pesticidas y otros agroquímicos",1061899,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Medicinas y productos farmacéuticos,924996064,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros médicos",1547669252,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Materiales, accesorios y suministros de laboratorio",8225338,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Fibras sintéticas, hules, plásticos y derivados",1097607,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Otros productos químicos,3887249,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Materias primas y materiales de producción y comercialización,429894,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Productos alimenticios, agropecuarios y forestales adquiridos como materia prima",207958,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Insumos textiles adquiridos como materia prima,1049,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Productos de papel, cartón e impresos adquiridos como materia prima",133954,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Productos químicos, farmacéuticos y de laboratorio adquiridos como materia prima",14560,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Productos de cuero, piel, plástico y hule adquiridos como materia prima",71004,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Mercancías adquiridas para su comercialización,1369,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros productos adquiridos como materia prima,250000,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Combustibles, lubricantes y aditivos",959803453,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Combustibles, lubricantes y aditivos",959803453,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Vestuario, blancos, prendas de protección y artículos deportivos",112643231,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Vestuario y uniformes,66554440,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Prendas de seguridad y protección personal,40006069,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Artículos deportivos,25908,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Productos textiles,3523817,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Blancos y otros productos textiles, excepto prendas de vestir",2532997,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Materiales y suministros para seguridad,323647297,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Materiales de seguridad pública,31240993,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Prendas de protección para seguridad pública y nacional,292406304,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Servicios generales,12944893643,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Servicios básicos,800101594,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Energía eléctrica,247853294,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Gas,63847294,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Agua,293329908,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Telefonía tradicional,18615669,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de telecomunicaciones y satélites,56484,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de acceso de Internet, redes y procesamiento de información",126150619,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios postales y telegráficos,26195075,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios integrales y otros servicios,24053251,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Servicios de arrendamiento,1967905352,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Arrendamiento de edificios,772853613,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Arrendamiento de mobiliario y equipo de administración, educacional y recreativo",43828070,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Arrendamiento de equipo e instrumental médico y de laboratorio,61902982,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Arrendamiento de equipo de transporte,944564123,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Arrendamiento de maquinaria, otros equipos y herramientas",889778,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Arrendamiento de activos intangibles,20011955,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros arrendamientos,123854831,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Servicios profesionales, científicos, técnicos y otros servicios",1915171564,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios legales, de contabilidad, auditoría y relacionados",130512567,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de diseño, arquitectura, ingeniería y actividades relacionadas",2879138,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de consultoría administrativa, procesos, técnica y en tecnologías de la información",130745079,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de capacitación,2610996,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de investigación científica y desarrollo,1250000,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de apoyo administrativo, traducción, fotocopiado e impresión",189577796,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de protección y seguridad,2765432,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de vigilancia,1359322246,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios profesionales, científicos y técnicos integrales",95508310,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Servicios financieros, bancarios y comerciales",878598322,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios financieros y bancarios,50922738,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de recaudación, traslado y custodia de valores",498051945,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Seguro de bienes patrimoniales,324662939,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Almacenaje, envase y embalaje",66254,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fletes y maniobras,4894446,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Servicios de instalación, reparación, mantenimiento y conservación",1945735255,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Conservación y mantenimiento menor de inmuebles,126180077,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo",3850169,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información",39112830,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de jardinería y fumigación,133212938,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Reparación y mantenimiento de equipo de transporte,197400841,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Reparación y mantenimiento de equipo de defensa y seguridad e instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio",217688059,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,"Instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio",217688059,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Instalación, reparación y mantenimiento de maquinaria, otros equipos y herramienta",367093578,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de limpieza y manejo de desechos,861196763,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Servicios de comunicación social y publicidad,615469088,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Difusión por radio, televisión y otros medios de mensajes sobre programas y actividades gubernamentales",423579602,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Servicios de creatividad, preproducción y producción de publicidad, excepto Internet",81860412,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicio de creación y difusión de contenido exclusivamente a través de Internet,102320140,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros servicios de información,7708934,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Servicios de traslado y viáticos,34140905,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Pasajes aéreos,21443,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Pasajes terrestres,31263803,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Viáticos en el país,151160,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Viáticos en el extranjero,6944,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios integrales de traslado y viáticos,16000,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros servicios de traslado y hospedaje,2681555,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Servicios oficiales,94025448,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Gastos de orden social y cultural,82587260,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Congresos y convenciones,8352140,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Exposiciones,3086048,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Otros servicios generales,4693746115,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios funerarios y de cementerios,14848372,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Impuestos y derechos,35959803,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Sentencias y resoluciones por autoridad competente,3400531,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Penas, multas, accesorios y actualizaciones",1637785,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros gastos por responsabilidades,43857372,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Impuesto sobre nóminas y otros que se deriven de una relación laboral,898412531,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros servicios generales,3695629721,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,"Transferencias, asignaciones, subsidios y otras ayudas",58793700055,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Transferencias internas y asignaciones al sector público,55027393328,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,A poderes,8331093939,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Legislativo,2232339588,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Judicial,6098754351,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,A instituciones del gobierno según función,43496899220,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de educación,2096303208,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de salud,328484917,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de asistencia social,816822717,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de cultura y deporte,394438269,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de seguridad pública,21455735541,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector turismo,66655423,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas del sector económico,816861115,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones y programas de infraestructura,17521598030,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Órganos autónomos y electorales,2925756751,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituto electoral,1201084647,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Comisión de derechos humanos,425447554,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Instituciones de transparencia,161197478,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Diversos órganos autónomos y electorales,1138027072,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Diversas transferencias,273643418,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Otras transferencias,273643418,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Ayudas sociales,12719513,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Becas y otras ayudas para programas de capacitación,12719513,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Subsidios y subvenciones,3753587214,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Subsidios diversos,3753587214,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,"Bienes muebles, inmuebles e intangibles",1317266838,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Mobiliario y equipo de administración,192755908,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Muebles de oficina y estantería,21827229,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Muebles, excepto de oficina y estantería",5461213,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipo de cómputo y de tecnologías de la información,22240868,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros mobiliarios y equipos de administración,143226598,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Mobiliario y equipo educacional y recreativo,9378827,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipos y aparatos audiovisuales,3423583,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Cámaras fotográficas y de video,3071970,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otro mobiliario y equipo educacional y recreativo,2883274,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Vehículos y equipo de transporte,25228323,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Vehículos y equipo terrestre,25053163,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipo aeroespacial,175160,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Equipo de defensa y seguridad y equipo e instrumental médico y laboratorio,959443794,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipo de defensa y seguridad,442971703,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipo médico y de laboratorio,504687617,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instrumental médico y de laboratorio,11784474,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Maquinaria, otros equipos y herramientas",105953724,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Maquinaria y equipo agropecuario,6647934,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Maquinaria y equipo industrial,1769515,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Maquinaria y equipo de construcción,36386683,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Equipo de comunicación y telecomunicación,25321442,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,"Equipos de generación eléctrica, aparatos y accesorios eléctricos",125477,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Herramientas y máquinas-herramienta,2335925,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros equipos,33366748,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Bienes inmuebles,21000000,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otros bienes inmuebles,21000000,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Activos intangibles,3506262,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Software,3506262,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Inversión pública,13818493344,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Obra pública en bienes de dominio público,11429215591,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Edificación no habitacional,2288181279,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Edificios públicos diversos,2288181279,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,División de terrenos y construcción de obras de urbanización,1149877989,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Construcción de vías de comunicación,3200372613,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otras construcciones de ingeniería civil u obra pesada,4783652389,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Trabajos de acabados en edificaciones y otros trabajos especializados,7131321,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Obra pública en bienes propios,57122852,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Edificación no habitacional,57122852,Cifras Definitivas
+2020,09,09,Egresos,Subpartida Genérica,Edificios públicos diversos,57122852,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Proyectos productivos y acciones de fomento,2332154901,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Diversos proyectos productivos y acciones de fomento,2332154901,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Inversiones financieras y otras provisiones,965365226,Cifras Definitivas
+2020,09,09,Egresos,Concepto,"Inversiones en fideicomisos, mandatos y otros análogos",965365226,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Otras inversiones en fideicomisos,965365226,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Recursos asignados a alcaldías de la Ciudad de México y sector paraestatal,80978177400,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Alcaldías de la Ciudad de México,39391602391,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Azcapotzalco,1629896584,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Coyoacán,2508723388,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Cuajimalpa de Morelos,1584104123,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Gustavo A. Madero,4447254211,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Iztacalco,1911037253,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Iztapalapa,5476972990,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Magdalena Contreras,1520481318,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Milpa Alta,1336275838,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Álvaro Obregón,2893234279,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Tláhuac,1580591411,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Tlalpan,2444686117,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Xochimilco,1914952037,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Benito Juárez,2166724261,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Cuauhtémoc,3040906712,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Miguel Hidalgo,2353526163,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Venustiano Carranza,2582235706,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Sector Paraestatal del Gobierno de la Ciudad de México,41586575009,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Heroico Cuerpo de Bomberos de la Ciudad de México,1041309894,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instituto de Vivienda de la Ciudad de México,1197380380,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fondo para el Desarrollo Social de la Ciudad de México,423163978,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso de Recuperación Crediticia de la Ciudad de México FIDERE III,2600000,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fondo de Desarrollo Económico de la Ciudad de México,3872780,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fondo Mixto de Promoción Turística de la Ciudad de México,24246142,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fondo Ambiental Público de la Ciudad de México,296396328,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Sistema para el Desarrollo Integral de la Familia,1942520637,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instituto de Educación Media Superior de la Ciudad de México,982795980,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instituto de la Juventud de la Ciudad de México,82088769,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso del Centro Histórico de la Ciudad de México,74060281,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Sistema de Transporte Colectivo (Metro),8849773177,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicio de Transportes Eléctricos de la Ciudad de México,2865337203,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Sistema de Movilidad 1,1829679363,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso para el Fondo de Promoción del Transporte Público,839105808,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Caja de Previsión para Trabajadores a Lista de Raya de la Ciudad de México,1459500440,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Caja de Previsión de la Policía Preventiva de la Ciudad de México,562227273,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Servicios de Salud Pública de la Ciudad de México,7355730666,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Procuraduría Social de la Ciudad de México,380952783,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México,104440794,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Metrobús,1915658333,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso Museo de Arte Popular Mexicano,15634345,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso Museo del Estanquillo,12036193,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Fideicomiso Educación Garantizada,7110749994,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Consejo de Evaluación del Desarrollo Social de la Ciudad de México,20544406,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instituto del Deporte de la Ciudad de México,199002454,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Instituto Local de la Infraestructura Física Educativa de la Ciudad de México,288347854,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Diversas Entidades Paraestatales de la Ciudad de México,1707418754,Cifras Definitivas
+2020,09,09,Egresos,Capítulo,Deuda pública,12999057959,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Amortización de la deuda pública,6371422463,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Amortización de la deuda interna con instituciones de crédito,5070438730,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Diversas amortizaciones de la deuda pública,1300983733,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Intereses de la deuda pública,6430982783,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Intereses de la deuda interna con instituciones de crédito,5104824322,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,Intereses derivados de la colocación de títulos y valores,1326158461,Cifras Definitivas
+2020,09,09,Egresos,Concepto,Adeudos de ejercicios fiscales anteriores (ADEFAS),196652713,Cifras Definitivas
+2020,09,09,Egresos,Partida Genérica,ADEFAS,196652713,Cifras Definitivas
+2020,09,09,Ingresos,Tema,Total de ingresos,219374758023,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Impuestos,55966146100,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Impuesto sobre los Ingresos,26456793000,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto sobre nómina,26456793000,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Impuestos sobre el Patrimonio,28539318600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto predial,17499726300,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto sobre tenencia o uso de vehículos,4566581500,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Adquisición de bienes inmuebles,6473010800,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,"Impuesto sobre la producción, el consumo y las transacciones",956036600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto sobre hospedaje,238828500,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Diversiones y espectáculos públicos,272810200,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,"Loterías, rifas, sorteos y juegos permitidos",327244900,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,"Otros impuestos sobre la producción, el consumo y las transacciones",117153000,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Accesorios,13997900,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Derechos,21493797200,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,"Derechos por el uso, goce, aprovechamiento o explotación de bienes de dominio público",10755341200,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Registros,1343035500,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Registro civil,229727400,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Registro público de la propiedad y del comercio,1113308100,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Certificaciones y constancias,948600,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Ecología e impacto ambiental,948600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Licencias y permisos,328389200,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Licencias y permisos diversos,328389200,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Servicios de vialidad y transporte,1986212600,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Servicios de grúa y almacenaje de vehículos,19007800,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Control vehicular,1967204800,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Uso y suministro de agua potable,6990132600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Servicios de desarrollo urbano y obras públicas,106622700,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Urbanización,70702900,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Por servicios de fraccionamiento,35919800,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Derechos por prestación de servicios,10514443800,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Estacionamientos,57509800,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Seguridad pública,10421010100,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Servicios de limpia y recolección de basura,12812500,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Diversos derechos por prestación de servicios,23111400,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Otros Derechos,224012200,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Productos,2441221000,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Productos de tipo corriente,1778940800,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Intereses,1334324900,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Establecimientos y empresas,444615900,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Talleres gráficos,163564100,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Establecimientos diversos,281051800,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Productos de tipo capital,662280200,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Enajenación o venta de bienes,662280200,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Bienes muebles e inmuebles,661040200,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Bienes inmuebles,1240000,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Aprovechamientos,10985519100,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Aprovechamientos de tipo corriente,2423068600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Reintegros,900000000,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Multas,518498800,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Fianzas y depósitos,318574900,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Donaciones y aprovechamientos a favor del estado,487935100,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Indemnizaciones a favor del estado,198059800,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Aprovechamientos de tipo capital,344494400,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Concesiones para la explotación de bienes patrimoniales,344494400,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Otros aprovechamientos,8217956100,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Participaciones federales,87384218300,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Fondos participables,80256803300,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Fondo General de Participaciones,63196695700,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Fondo de Fomento Municipal,3475560700,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Fondo de Fiscalización,3266041900,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Fondo del Impuesto Sobre la Renta,10318505000,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Impuestos participables,4419538309,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto sobre Tenencia o Uso de Vehículos,66709,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto sobre Automóviles Nuevos,1945458300,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Impuesto Especial sobre Producción y Servicios,1470494100,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,IEPS Gasolinas,1003519200,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Otras participaciones,2707876691,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Multas administrativas federales no fiscales,7579300,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Incentivos por administración de impuestos,2700297391,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Aportaciones federales,31906856300,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Aportaciones del ramo general 33,16788391400,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Aportaciones a entidades federativas,8485707881,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para los Servicios de Salud,4808988100,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para Infraestructura Social Estatal,151843781,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA Múltiples,901848900,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para la Seguridad Pública,466028500,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios y las Demarcaciones Territoriales de la Ciudad de México,2156998600,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Aportaciones a municipios,8302683519,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para la Infraestructura Social Municipal,1100811085,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,FA para el Fortalecimiento de los Municipios,7201872434,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Recursos federales reasignados,15118464900,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Convenios para obras públicas,6738520000,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Fondo para la estabilización de los ingresos,6738520000,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Recursos federales diversos,8379944900,Cifras Definitivas
+2020,09,09,Ingresos,Subpartida Genérica,Otros recursos federales,8379944900,Cifras Definitivas
+2020,09,09,Ingresos,Capítulo,Financiamiento,9197000023,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Empréstitos,3112106700,Cifras Definitivas
+2020,09,09,Ingresos,Partida Genérica,Empréstitos diversos,3112106700,Cifras Definitivas
+2020,09,09,Ingresos,Concepto,Déficit,6084893323,Cifras Definitivas
